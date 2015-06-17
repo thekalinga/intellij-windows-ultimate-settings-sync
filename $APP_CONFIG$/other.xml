@@ -1,4 +1,9 @@
 <application>
+  <component name="DBNavigator.Application.Settings">
+    <enable-debug-mode value="false" />
+    <enable-developer-mode value="false" />
+    <show-plugin-conflict-dialog value="false" />
+  </component>
   <component name="DebuggerSettings">
     <option name="TRACING_FILTERS_ENABLED" value="true" />
     <option name="FORCE_CLASSIC_VM" value="true" />
@@ -50,5 +55,30 @@
       <option name="PATTERN" value="org.springsource.loaded.*" />
       <option name="ENABLED" value="true" />
     </filter>
+  </component>
+  <component name="Rearranger">
+    <Rearranger KeepGettersSettersTogether="false" KeepGettersSettersWithProperty="false" KeepOverloadedMethodsTogether="false" ConfirmBeforeRearranging="false" RearrangeInnerClasses="false" globalCommentPattern="" overloadedOrder="0" ShowParameterTypes="true" ShowParameterNames="false" ShowFields="true" ShowTypeAfterMethod="true" ShowRules="false" ShowMatchedRules="false" ShowComments="false" RemoveBlanksInsideCodeBlocks="false">
+      <Items />
+      <Classes />
+      <DefaultGetterSetterDefinition>
+        <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
+      </DefaultGetterSetterDefinition>
+      <RelatedMethods moveExtractedMethods="false" belowFirstCaller="true" depthFirstOrdering="true" ordering="0" nonPrivateTreatment="2" commentType="0" fillString="" useProjectWidthForFill="true" fillWidth="0">
+        <PrecedingComment>
+          <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+        </PrecedingComment>
+        <TrailingComment>
+          <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
+        </TrailingComment>
+      </RelatedMethods>
+      <AfterClassLBrace Force="false" nBlankLines="0" />
+      <AfterClassRBrace Force="false" nBlankLines="0" />
+      <BeforeClassRBrace Force="false" nBlankLines="0" />
+      <BeforeMethodLBrace Force="false" nBlankLines="0" />
+      <AfterMethodLBrace Force="false" nBlankLines="0" />
+      <AfterMethodRBrace Force="false" nBlankLines="0" />
+      <BeforeMethodRBrace Force="false" nBlankLines="0" />
+      <NewlinesAtEOF Force="false" nBlankLines="0" />
+    </Rearranger>
   </component>
 </application>
