@@ -16,6 +16,9 @@
     <keyboard-shortcut first-keystroke="control D" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="ExternalSystem.RefreshAllProjects">
+    <keyboard-shortcut first-keystroke="shift control alt G" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="control alt E" />
   </action>
