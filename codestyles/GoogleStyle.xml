@@ -12,6 +12,7 @@
     </value>
   </option>
   <option name="RIGHT_MARGIN" value="100" />
+  <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
