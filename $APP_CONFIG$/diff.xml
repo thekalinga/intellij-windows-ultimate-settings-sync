@@ -1,4 +1,11 @@
 <application>
+  <component name="DiffManager">
+    <enableFiles value="true" />
+    <enableMerge value="true" />
+    <filesTool value="/usr/bin/bcompare" newValue="/usr/bin/bcompare" />
+    <mergeTool value="/usr/bin/bcompare" newValue="/usr/bin/bcompare" />
+    <mergeToolParameters value="%1 %3 %2 %4" />
+  </component>
   <component name="DiffSettings">
     <option name="PLACES_MAP">
       <entry key="ChangesView">
@@ -11,6 +18,15 @@
         <PlaceSettings />
       </entry>
     </option>
+  </component>
+  <component name="ExternalDiffSettings">
+    <option name="DIFF_ENABLED" value="true" />
+    <option name="DIFF_DEFAULT" value="true" />
+    <option name="DIFF_EXE_PATH" value="/usr/bin/bcompare" />
+    <option name="DIFF_PARAMETERS" value="%1 %2 %3" />
+    <option name="MERGE_ENABLED" value="true" />
+    <option name="MERGE_EXE_PATH" value="/usr/bin/bcompare" />
+    <option name="MERGE_PARAMETERS" value="%1 %3 %2 %4" />
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
