@@ -13,6 +13,7 @@
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
+      <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
