@@ -12,6 +12,7 @@
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern="string-array" type="PLAIN_TEXT" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
     </extensionMap>
