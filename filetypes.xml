@@ -15,6 +15,7 @@
       <mapping pattern="string-array" type="PLAIN_TEXT" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
