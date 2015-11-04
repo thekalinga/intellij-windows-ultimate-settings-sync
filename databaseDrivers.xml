@@ -60,12 +60,30 @@
     <driver id="h2" name="H2" dialect="H2">
       <driver id="h2.embedded" name="Embedded">
         <option name="auto-sync" value="true" />
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/h2-license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/h2-1.3.176.jar</url>
+        </library>
       </driver>
       <driver id="h2.remote" name="Remote">
         <option name="auto-sync" value="true" />
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/h2-license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/h2-1.3.176.jar</url>
+        </library>
       </driver>
       <driver id="h2.in-memory" name="In-memory">
         <option name="auto-sync" value="true" />
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/h2-license.txt</url>
+        </library>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/h2-1.3.176.jar</url>
+        </library>
       </driver>
     </driver>
     <driver id="sqlite" name="SQLite" dialect="SQLite">
