@@ -1,6 +1,6 @@
 <application>
   <component name="CodeStyleSchemesUIConfiguration">
-    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/dev/utils/eclipse-java-google-style.xml" />
+    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/dev/idealx/lc/eclipse-java-code-style.xml" />
   </component>
   <component name="DBNavigator.Application.Settings">
     <enable-debug-mode value="false" />
