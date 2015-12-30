@@ -59,6 +59,10 @@
       <option name="PATTERN" value="org.springsource.loaded.*" />
       <option name="ENABLED" value="true" />
     </filter>
+    <filter>
+      <option name="PATTERN" value="kotlin.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
   </component>
   <component name="Rearranger">
     <Rearranger KeepGettersSettersTogether="false" KeepGettersSettersWithProperty="false" KeepOverloadedMethodsTogether="false" ConfirmBeforeRearranging="false" RearrangeInnerClasses="false" globalCommentPattern="" overloadedOrder="0" ShowParameterTypes="true" ShowParameterNames="false" ShowFields="true" ShowTypeAfterMethod="true" ShowRules="false" ShowMatchedRules="false" ShowComments="false" RemoveBlanksInsideCodeBlocks="false">
