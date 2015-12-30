@@ -1,6 +1,6 @@
 <application>
   <component name="ProjectManager">
-    <defaultProject>
+    <defaultProject version="4">
       <component name="CompilerConfiguration">
         <resourceExtensions />
         <wildcardResourcePatterns>
@@ -48,6 +48,9 @@
           </MavenGeneralSettings>
         </option>
       </component>
+      <component name="NamedScopeManager">
+        <order />
+      </component>
       <component name="ProjectLevelVcsManager" settingsEditedManually="false">
         <OptionsSetting value="true" id="Add" />
         <OptionsSetting value="true" id="Remove" />
@@ -57,6 +60,9 @@
         <OptionsSetting value="true" id="Edit" />
         <ConfirmationsSetting value="0" id="Add" />
         <ConfirmationsSetting value="0" id="Remove" />
+      </component>
+      <component name="ProjectModuleManager">
+        <modules />
       </component>
       <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" />
       <component name="PropertiesComponent">
