@@ -1,11 +1,11 @@
 <application>
   <component name="ApplicationShared">
-    <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showPreviewTab="true" showModifiedHtmlTab="false" showUnmodifiedHtmlTab="false">
+    <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showPreviewTab="yes" showModifiedHtmlTab="false" showUnmodifiedHtmlTab="false" showGitHubPageIfSynced="false" allowBrowsingInPreview="false">
       <PanelProvider>
         <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.panel" providerName="JavaFX WebView" />
       </PanelProvider>
     </PreviewSettings>
-    <ParserSettings parsingTimeout="10000">
+    <ParserSettings parsingTimeout="100">
       <PegdownExtensions>
         <option name="ABBREVIATIONS" value="false" />
         <option name="ANCHORLINKS" value="false" />
@@ -47,7 +47,6 @@
       <ScriptProviders />
       <cssText />
     </CssSettings>
-    <DocumentSettings trimTrailingBlanks="false" />
   </component>
   <component name="MultiMarkdownSettings" abbreviations="false" anchorLinks="false" autoLinks="false" definitions="false" enableTrimSpaces="false" fencedCodeBlocks="false" forceListPara="false" hardWraps="false" headerSpace="false" quotes="false" relaxedHRules="false" showHtmlText="true" showHtmlTextAsModified="false" smarts="false" strikethrough="false" suppressHTMLBlocks="false" suppressInlineHTML="false" tables="false" taskLists="false" wikiLinks="false" todoComments="true" useCustomCss="false" enableFirebug="false" useHighlightJs="true" includesHljsCss="false" includesLayoutCss="false" includesColorsCss="true" footnotes="false" htmlTheme="0" maxImgWidth="900" parsingTimeout="10000" pageZoom="1.0" updateDelay="1000" tabbedPaneIndex="0" customCss="" customFxCss="" useOldPreview="false" githubWikiLinks="true" />
 </application>
