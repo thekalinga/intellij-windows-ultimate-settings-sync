@@ -2,6 +2,10 @@
   <component name="LocalDatabaseDriverManager" version="141+">
     <driver id="h2.unified" name="H2" dialect="H2">
       <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <library>
+        <url>file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.188/a955e0f5598a7bc9df5c7b5c3ab31ffd350a035e/h2-1.4.188.jar</url>
+      </library>
     </driver>
     <driver id="oracle" name="Oracle" dialect="Oracle">
       <option name="auto-sync" value="false" />
