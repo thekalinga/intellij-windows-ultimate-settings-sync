@@ -8,6 +8,9 @@
   </action>
   <action id="EditorDuplicate" />
   <action id="EditorSelectWord" />
+  <action id="ExternalSystem.RefreshProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
@@ -26,4 +29,5 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="com.karateca.jstoolbox.tobrowser.ToBrowserAction" />
 </keymap>
