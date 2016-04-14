@@ -1,6 +1,6 @@
 <application>
   <component name="ApplicationShared">
-    <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showPreviewTab="yes" showModifiedHtmlTab="false" showUnmodifiedHtmlTab="false" showGitHubPageIfSynced="false" allowBrowsingInPreview="false">
+    <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showPreviewTab="yes" showModifiedHtmlTab="false" showUnmodifiedHtmlTab="false" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizeScrollPosition="false">
       <PanelProvider>
         <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.panel" providerName="JavaFX WebView" />
       </PanelProvider>
@@ -25,13 +25,15 @@
         <option name="TABLES" value="false" />
         <option name="TASKLISTITEMS" value="false" />
         <option name="TOC" value="false" />
+        <option name="TRACE_PARSER" value="false" />
         <option name="WIKILINKS" value="false" />
       </PegdownExtensions>
       <ParserOptions>
         <option name="GITHUB_WIKI_LINKS" value="true" />
+        <option name="JEKYLL_FRONT_MATTER" value="false" />
       </ParserOptions>
     </ParserSettings>
-    <HtmlSettings headerTopEnabled="false" headerBottomEnabled="false" bodyTopEnabled="false" bodyBottomEnabled="false">
+    <HtmlSettings headerTopEnabled="false" headerBottomEnabled="false" bodyTopEnabled="false" bodyBottomEnabled="false" embedUrlContent="false">
       <GeneratorProvider>
         <provider providerId="com.vladsch.idea.multimarkdown.editor.javafx.html.generator" providerName="JavaFx HTML Generator" />
       </GeneratorProvider>
