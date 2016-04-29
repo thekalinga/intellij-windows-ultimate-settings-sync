@@ -17,7 +17,7 @@
   <option name="RIGHT_MARGIN" value="100" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
   <JavaCodeStyleSettings>
-    <option name="ANNOTATION_PARAMETER_WRAP" value="2" />
+    <option name="ANNOTATION_PARAMETER_WRAP" value="1" />
     <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
   </JavaCodeStyleSettings>
   <MultiMarkdownCodeStyleSettings>
@@ -81,7 +81,6 @@
     <option name="TERNARY_OPERATION_WRAP" value="5" />
     <option name="ARRAY_INITIALIZER_WRAP" value="1" />
     <option name="ASSIGNMENT_WRAP" value="1" />
-    <option name="PARAMETER_ANNOTATION_WRAP" value="2" />
     <option name="VARIABLE_ANNOTATION_WRAP" value="2" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
