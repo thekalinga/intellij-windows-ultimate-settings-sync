@@ -80,6 +80,9 @@
       <option name="ENABLED" value="true" />
     </filter>
   </component>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.springframework.org/schema/integration" location="$USER_HOME$/.IntelliJIdea15/system/extResources/a54783c7_spring-integration.xsd" />
+  </component>
   <component name="Rearranger">
     <Rearranger KeepGettersSettersTogether="false" KeepGettersSettersWithProperty="false" KeepOverloadedMethodsTogether="false" ConfirmBeforeRearranging="false" RearrangeInnerClasses="false" globalCommentPattern="" overloadedOrder="0" ShowParameterTypes="true" ShowParameterNames="false" ShowFields="true" ShowTypeAfterMethod="true" ShowRules="false" ShowMatchedRules="false" ShowComments="false" RemoveBlanksInsideCodeBlocks="false">
       <Items />
