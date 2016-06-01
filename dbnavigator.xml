@@ -383,7 +383,7 @@
       <regional-settings>
         <date-format value="MEDIUM" />
         <number-format value="UNGROUPED" />
-        <locale value="en_IN" />
+        <locale value="SYSTEM_DEFAULT" />
         <use-custom-formats value="false" />
       </regional-settings>
       <environment>
