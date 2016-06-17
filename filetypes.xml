@@ -11,6 +11,7 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping ext="tex" type="Native" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
       <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
