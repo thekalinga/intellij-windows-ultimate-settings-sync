@@ -1,7 +1,8 @@
 <application>
   <component name="ScratchFileService">
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10" value="yaml" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_100" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_101" value="TEXT" />
@@ -18,8 +19,8 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_111" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_112" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_113" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_114" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_115" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_114" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_115" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_116" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_117" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_118" value="JAVA" />
@@ -54,7 +55,7 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_144" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_145" value="JAVA" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_146" value="XML" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_147" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_147" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_148" value="DBN-SQL" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_149" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_15" value="JAVA" />
@@ -66,7 +67,7 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_155" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_156" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_157" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_158" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_158" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_159" value="XML" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_16" value="Properties" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_160" value="TEXT" />
@@ -80,7 +81,7 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_17" value="JAVA" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_18" value="JAVA" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_19" value="JSON" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_20" value="JAVA" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_21" value="Properties" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_22" value="JAVA" />
@@ -111,23 +112,23 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_45" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_46" value="JSON" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_47" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_48" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_48" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_49" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_50" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_51" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_52" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_53" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_53" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_54" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_55" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_56" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_57" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_58" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_59" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_60" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_61" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_62" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_59" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_60" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_61" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_62" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_63" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_64" value="JSON" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_65" value="TEXT" />
@@ -136,9 +137,9 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_68" value="JAVA" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_69" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7" value="JAVA" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_70" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_71" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_72" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_70" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_71" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_72" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_73" value="JSON" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_74" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_75" value="TEXT" />
@@ -154,16 +155,16 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_85" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_86" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_87" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_88" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_88" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_89" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9" value="yaml" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_90" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_91" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_91" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_92" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_93" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_93" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_94" value="TEXT" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_95" value="SQL" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_96" value="SQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_95" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_96" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_97" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_98" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_99" value="JAVA" />
