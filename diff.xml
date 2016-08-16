@@ -1,5 +1,5 @@
 <application>
-  <component name="DiffManager">
+  <component name="DiffManager" COMPARISON_POLICY="Ignore spaces">
     <enableFiles value="true" />
     <enableMerge value="true" />
     <filesTool value="/usr/bin/bcompare" newValue="/usr/bin/bcompare" />
