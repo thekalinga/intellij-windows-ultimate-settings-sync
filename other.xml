@@ -1,27 +1,8 @@
 <application>
-  <component name="AppInspectionProfilesVisibleTreeState">
-    <entry key="Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="CodeStyleSchemesUIConfiguration">
-    <option name="RECENT_IMPORT_FILE_LOCATION" value="file:$USER_HOME$/dev/idealx/lc/eclipse-java-code-style.xml" />
-  </component>
   <component name="DBNavigator.Application.Settings">
     <enable-debug-mode value="false" />
     <enable-developer-mode value="false" />
-    <show-plugin-conflict-dialog value="false" />
+    <show-plugin-conflict-dialog value="true" />
   </component>
   <component name="DebuggerSettings">
     <option name="TRACING_FILTERS_ENABLED" value="true" />
@@ -30,7 +11,6 @@
     <option name="SKIP_CLASSLOADERS" value="true" />
     <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
     <option name="COMPILE_BEFORE_HOTSWAP" value="true" />
-    <option name="WATCH_RETURN_VALUES" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -76,44 +56,19 @@
       <option name="ENABLED" value="true" />
     </filter>
     <filter>
-      <option name="PATTERN" value="kotlin.*" />
+      <option name="PATTERN" value="javassist.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="org.apache.webbeans.*" />
+      <option name="ENABLED" value="true" />
+    </filter>
+    <filter>
+      <option name="PATTERN" value="com.ibm.ws.*" />
       <option name="ENABLED" value="true" />
     </filter>
   </component>
-  <component name="ExternalResourceManagerImpl">
-    <resource url="http://www.springframework.org/schema/integration" location="$USER_HOME$/.IntelliJIdea15/system/extResources/a54783c7_spring-integration.xsd" />
-  </component>
-  <component name="Rearranger">
-    <Rearranger KeepGettersSettersTogether="false" KeepGettersSettersWithProperty="false" KeepOverloadedMethodsTogether="false" ConfirmBeforeRearranging="false" RearrangeInnerClasses="false" globalCommentPattern="" overloadedOrder="0" ShowParameterTypes="true" ShowParameterNames="false" ShowFields="true" ShowTypeAfterMethod="true" ShowRules="false" ShowMatchedRules="false" ShowComments="false" RemoveBlanksInsideCodeBlocks="false">
-      <Items />
-      <Classes />
-      <DefaultGetterSetterDefinition>
-        <GetterSetterDefinition getterBody="0" getterName="0" setterBody="0" setterName="0" />
-      </DefaultGetterSetterDefinition>
-      <RelatedMethods moveExtractedMethods="false" belowFirstCaller="true" depthFirstOrdering="true" ordering="0" nonPrivateTreatment="2" commentType="0" fillString="" useProjectWidthForFill="true" fillWidth="0">
-        <PrecedingComment>
-          <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
-        </PrecedingComment>
-        <TrailingComment>
-          <Comment condition="0" nPrecedingRulesToMatch="1" nSubsequentRulesToMatch="1" allPrecedingRules="true" allSubsequentRules="true" fillString="" useProjectWidthForFill="true" fillWidth="0" />
-        </TrailingComment>
-      </RelatedMethods>
-      <AfterClassLBrace Force="false" nBlankLines="0" />
-      <AfterClassRBrace Force="false" nBlankLines="0" />
-      <BeforeClassRBrace Force="false" nBlankLines="0" />
-      <BeforeMethodLBrace Force="false" nBlankLines="0" />
-      <AfterMethodLBrace Force="false" nBlankLines="0" />
-      <AfterMethodRBrace Force="false" nBlankLines="0" />
-      <BeforeMethodRBrace Force="false" nBlankLines="0" />
-      <NewlinesAtEOF Force="false" nBlankLines="0" />
-    </Rearranger>
-  </component>
   <component name="RefactoringSettings">
-    <option name="MOVE_PREVIEW_USAGES" value="false" />
-    <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
-    <option name="INTRODUCE_PARAMETER_REPLACE_FIELDS_WITH_GETTERS" value="1" />
-    <option name="INTRODUCE_CONSTANT_VISIBILITY" value="public" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
-    <option name="INTRODUCE_PARAMETER_CREATE_FINALS" value="false" />
   </component>
 </application>

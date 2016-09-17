@@ -2,6 +2,8 @@
   <component name="CodeInsightSettings">
     <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <EXCLUDED_PACKAGE NAME="com.google.common.base.Optional" />
+    <EXCLUDED_PACKAGE NAME="groovy.util" />
     <EXCLUDED_PACKAGE NAME="jdk.nashorn.internal" />
+    <EXCLUDED_PACKAGE NAME="lombok.extern.log4j.Log4j" />
   </component>
 </application>
