@@ -3,6 +3,7 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" value="DBN-SQL" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.yml" value="yaml" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1" value="TEXT" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.sql" value="DBN-SQL" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.txt" value="TEXT" />
@@ -85,6 +86,7 @@
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_18" value="JAVA" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_19" value="JSON" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2" value="TEXT" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.sql" value="SQL" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_20" value="JAVA" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_21" value="Properties" />
     <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_22" value="JAVA" />
