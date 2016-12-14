@@ -92,8 +92,8 @@
   </template>
   <template name="link" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;$END$&quot;&gt;" description="&lt;link rel=&quot;stylesheet&quot; href=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JSX_STATEMENT" value="true" />
       <option name="JSX_EXPRESSION" value="true" />
+      <option name="JSX_STATEMENT" value="true" />
     </context>
   </template>
   <template name="link:css" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;$STYLE$.css&quot; &gt;" description="&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; &gt;" toReformat="true" toShortenFQNames="true">
@@ -165,8 +165,8 @@
   </template>
   <template name="script:src" value="&lt;script src=&quot;$END$&quot;&gt;&lt;/script&gt;" description="&lt;script src=&quot;...&quot;&gt;...&lt;/script&gt;" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JSX_STATEMENT" value="true" />
       <option name="JSX_EXPRESSION" value="true" />
+      <option name="JSX_STATEMENT" value="true" />
     </context>
   </template>
   <template name="img" value="&lt;img src=&quot;$VAR0$&quot; alt=&quot;$VAR1$&quot;&gt;" description="&lt;img src=&quot;...&quot; alt=&quot;...&quot;&gt;" toReformat="true" toShortenFQNames="true">
