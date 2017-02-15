@@ -13,6 +13,7 @@
       <mapping ext="vw" type="DBN-SQL" />
       <mapping ext="tex" type="Native" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
+      <mapping pattern="truncate" type="PLAIN_TEXT" />
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
