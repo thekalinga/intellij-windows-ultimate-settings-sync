@@ -25,6 +25,7 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="2" type="PLAIN_TEXT" />
+      <mapping ext="vba" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
