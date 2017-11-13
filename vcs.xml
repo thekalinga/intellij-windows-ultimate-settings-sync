@@ -22,6 +22,10 @@
           <option name="url" value="https://github.com/snicoll-demos/cfp-example.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/snicoll-demos/hello-service-auto-configuration" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/dev/corporate-training/reference/boot" />
