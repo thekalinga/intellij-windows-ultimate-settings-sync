@@ -1,4 +1,8 @@
 <keymap version="1" name="Default for XWin copy" parent="Default for XWin">
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
@@ -6,6 +10,7 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
+  <action id="Diff.FocusOppositePane" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -24,8 +29,18 @@
   <action id="ExternalSystem.RefreshProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
@@ -51,6 +66,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="Switcher" />
   <action id="Testing.SelectInTree">
     <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
   </action>
