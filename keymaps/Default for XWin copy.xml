@@ -36,12 +36,8 @@
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
-  </action>
-  <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
-  </action>
+  <action id="NextTab" />
+  <action id="PreviousTab" />
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
@@ -66,7 +62,6 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
-  <action id="Switcher" />
   <action id="Testing.SelectInTree">
     <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
   </action>
