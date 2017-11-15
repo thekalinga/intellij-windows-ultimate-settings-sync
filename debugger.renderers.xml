@@ -1,12 +1,5 @@
 <application>
   <component name="NodeRendererSettings">
-    <Renderer ID="ArrayRenderer">
-      <option name="NAME" value="unnamed" />
-      <option name="ENABLED" value="true" />
-      <option name="START_INDEX" value="0" />
-      <option name="END_INDEX" value="99" />
-      <option name="ENTRIES_LIMIT" value="99" />
-    </Renderer>
     <Renderer ID="ToStringRenderer">
       <option name="NAME" value="unnamed" />
     </Renderer>
@@ -28,11 +21,22 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="YamlValue" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="org.jetbrains.yaml.psi.YAMLValue" />
+        <Renderer ID="ExpressionChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="org.jetbrains.yaml.psi.YAMLValue" />
+          <option name="CHILDREN_EXPANDABLE" value="&#13;&#13;JAVA" />
+          <option name="CHILDREN_EXPRESSION" value="this.getText()&#13;&#13;JAVA" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="YAMLMapping" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="org.jetbrains.yaml.psi.impl.YAMLMappingImpl" />
         <Renderer ID="LabelRenderer" role="label">
           <option name="QUALIFIED_NAME" value="org.jetbrains.yaml.psi.impl.YAMLMappingImpl" />
+          <option name="ON_DEMAND" value="false" />
           <option name="LABEL_EXPRESSION" value="this.getKeyValues().stream().map(kv -&gt; kv.getKeyText() + &quot;:&quot; + kv.getValueText()).collect(Collectors.joining(&quot;\n&quot;))&#13;java.util.stream.Collector,java.util.stream.Collectors&#13;JAVA" />
         </Renderer>
       </Renderer>
@@ -42,6 +46,7 @@
         <option name="QUALIFIED_NAME" value="org.jetbrains.yaml.psi.impl.YAMLKeyValueImpl" />
         <Renderer ID="LabelRenderer" role="label">
           <option name="QUALIFIED_NAME" value="org.jetbrains.yaml.psi.impl.YAMLKeyValueImpl" />
+          <option name="ON_DEMAND" value="false" />
           <option name="LABEL_EXPRESSION" value="this.getKeyText() + &quot;:&quot; + this.getValueText()&#13;&#13;JAVA" />
         </Renderer>
       </Renderer>
