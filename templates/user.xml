@@ -1,0 +1,8 @@
+<templateSet group="user">
+  <template name="log4j2-deps" value="compile('org.springframework.boot:spring-boot-starter') {&#10;        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'&#10;    }&#10;    compile('org.springframework.boot:spring-boot-starter-log4j2')" description="spring boot log4j2 dependencies" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
