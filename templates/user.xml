@@ -5,7 +5,14 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="mapstruct-deps" value="// TODO: Update the gradle wrapper to use &gt; 4.6-rc-1 build&#10;// distributionUrl=https\://services.gradle.org/distributions/gradle-4.6-rc-1-bin.zip&#10;&#10;annotationProcessor(&quot;org.projectlombok:lombok&quot;)&#10;    annotationProcessor(&quot;org.mapstruct:mapstruct-processor:1.2.0.Final&quot;)&#10;&#10;    compileOnly('org.projectlombok:lombok')&#10;    compileOnly('org.mapstruct:mapstruct-jdk8:1.2.0.Final')" description="Mapstruct dependency configuration" toReformat="true" toShortenFQNames="true">
+  <template name="mapstruct" value="ext {&#10;    mapstructVersion = '1.2.0.Final'&#10;}&#10;&#10;// TODO: Add `mapstruct.defaultComponentModel=spring` as an annotation processor argument&#10;// in the annotation processors section of intellij Annotation processor settings&#10;// That way, intellij builtin compiler also gets the same arguments as below&#10;compileJava {&#10;    dependsOn processResources&#10;    options.compilerArgs = [&#10;            '-Amapstruct.suppressGeneratorTimestamp=true',&#10;            '-Amapstruct.suppressGeneratorVersionInfoComment=true',&#10;            '-Amapstruct.defaultComponentModel=spring'&#10;    ]&#10;}&#10;&#10;dependencies {&#10;    // lombok + mapstruct&#10;    compileOnly(&quot;org.mapstruct:mapstruct-processor:${mapstructVersion}&quot;)&#10;    compileOnly(&quot;org.mapstruct:mapstruct-jdk8:${mapstructVersion}&quot;)&#10;    compileOnly('org.projectlombok:lombok')&#10;&#10;    annotationProcessor(&quot;org.projectlombok:lombok&quot;)&#10;    annotationProcessor(&quot;org.mapstruct:mapstruct-processor:${mapstructVersion}&quot;)&#10;}" description="Maps struct dependency configuration" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_DECLARATION" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="configuration-processor" value="// autogenerates configuration suggestions&#10;    compileOnly('org.springframework.boot:spring-boot-configuration-processor')&#10;    annotationProcessor('org.springframework.boot:spring-boot-configuration-processor')" description="Dependency configuration that autogenerate spring-metadata.json" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
