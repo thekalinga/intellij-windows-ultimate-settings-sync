@@ -5,4 +5,10 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="mapstruct-deps" value="// TODO: Update the gradle wrapper to use &gt; 4.6-rc-1 build&#10;// distributionUrl=https\://services.gradle.org/distributions/gradle-4.6-rc-1-bin.zip&#10;&#10;annotationProcessor(&quot;org.projectlombok:lombok&quot;)&#10;    annotationProcessor(&quot;org.mapstruct:mapstruct-processor:1.2.0.Final&quot;)&#10;&#10;    compileOnly('org.projectlombok:lombok')&#10;    compileOnly('org.mapstruct:mapstruct-jdk8:1.2.0.Final')" description="Mapstruct dependency configuration" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
