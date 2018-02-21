@@ -28,6 +28,7 @@
       <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
+      <mapping ext="pages" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="2" type="PLAIN_TEXT" />
       <mapping ext="factories" type="Properties" />
