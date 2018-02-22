@@ -36,12 +36,6 @@
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
-  <action id="JRebel Debug">
-    <keyboard-shortcut first-keystroke="shift alt f11" />
-  </action>
-  <action id="JRebel Executor">
-    <keyboard-shortcut first-keystroke="shift alt f12" />
-  </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
   <action id="RevealIn">
