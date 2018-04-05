@@ -17,6 +17,7 @@
       <mapping pattern="truncate" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
+      <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
       <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
       <mapping pattern="run_filebeat" type="PLAIN_TEXT" />
       <mapping pattern="logbackxml" type="PLAIN_TEXT" />
