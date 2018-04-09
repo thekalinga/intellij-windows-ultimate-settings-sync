@@ -35,7 +35,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="__gradle_lombok" value="dependencies {&#10;  // lombok&#10;  compileOnly('org.projectlombok:lombok')&#10;  annotationProcessor(&quot;org.projectlombok:lombok&quot;)&#10;}&#10;&#10;// TODO: Create a file named src/lombok.config with the following content&#10;// lombok.anyConstructor.suppressConstructorProperties=false&#10;// config.stopBubbling=true&#10;// TODO: Also add these properties to intellij annotation processor&#10;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="__gradle_lombok+" value="dependencies {&#10;  // lombok&#10;  compileOnly('org.projectlombok:lombok')&#10;  annotationProcessor(&quot;org.projectlombok:lombok&quot;)&#10;  compileOnly(&quot;org.jetbrains:annotations:${jetbrainsAnnotationsVersion}&quot;)&#10;}&#10;&#10;// TODO: Create a file named src/lombok.config with the following content&#10;// lombok.anyConstructor.suppressConstructorProperties=false&#10;// config.stopBubbling=true&#10;// TODO: Also add these properties to intellij annotation processor&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
