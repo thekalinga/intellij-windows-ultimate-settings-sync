@@ -6,6 +6,7 @@
       <template name="Dockerfile with filebeat." reformat="true" live-template-enabled="true" />
       <template name="entrypoint with filebeat.sh" reformat="true" live-template-enabled="true" />
       <template name="filebeat.yml" reformat="true" live-template-enabled="true" />
+      <template name="settings.gradle" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
 </application>
