@@ -41,4 +41,26 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="__docker_compose_mysql" value="version: '3'&#10;&#10;services:&#10;  mysql:&#10;    image: mysql&#10;    environment:&#10;      MYSQL_ROOT_PASSWORD: password&#10;      MYSQL_DATABASE: todo&#10;      MYSQL_USER: user&#10;      MYSQL_PASSWORD: password&#10;    ports:&#10;      - 3306:3306" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="false" />
+      <option name="Bash" value="false" />
+      <option name="CPT" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MARKDOWN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PL/SQL" value="false" />
+      <option name="SCALA" value="false" />
+      <option name="SPOCK_SPECIFICATION" value="false" />
+      <option name="SQL" value="false" />
+      <option name="SSP" value="false" />
+      <option name="XML" value="false" />
+      <option name="sbt" value="false" />
+    </context>
+  </template>
 </templateSet>

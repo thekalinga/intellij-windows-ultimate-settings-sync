@@ -3,6 +3,7 @@
     <default_templates>
       <template name="application.yml.yml" reformat="true" live-template-enabled="true" />
       <template name="bootstrap.yml.yml" reformat="true" live-template-enabled="true" />
+      <template name="Dockerfile with Filebeat." reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
 </application>

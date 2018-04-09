@@ -11,6 +11,7 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping ext="" type="Dockerfile" />
       <mapping ext="tex" type="Native" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
       <mapping pattern="hierarchy" type="PLAIN_TEXT" />
