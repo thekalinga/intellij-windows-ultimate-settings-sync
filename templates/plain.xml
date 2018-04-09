@@ -14,7 +14,4 @@
   <template name="thr" value="throw new " description="throw new" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
-  <template name="prsf" value="private static final " description="private static final" toReformat="false" toShortenFQNames="false">
-    <context />
-  </template>
 </templateSet>
