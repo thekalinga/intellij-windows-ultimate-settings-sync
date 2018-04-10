@@ -41,7 +41,7 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="__docker_compose_mysql" value="version: '3'&#10;&#10;services:&#10;  mysql:&#10;    image: mysql&#10;    environment:&#10;      MYSQL_ROOT_PASSWORD: password&#10;      MYSQL_DATABASE: todo&#10;      MYSQL_USER: user&#10;      MYSQL_PASSWORD: password&#10;    ports:&#10;      - 3306:3306" toReformat="true" toShortenFQNames="true">
+  <template name="__docker_compose_mysql" value="version: '3'&#10;&#10;services:&#10;  mysql:&#10;    image: mysql&#10;    environment:&#10;      MYSQL_ROOT_PASSWORD: password&#10;      MYSQL_DATABASE: todo&#10;      MYSQL_USER: user&#10;      MYSQL_PASSWORD: password&#10;    ports:&#10;      - 3306:3306" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="AsciiDoc" value="false" />
       <option name="Bash" value="false" />
