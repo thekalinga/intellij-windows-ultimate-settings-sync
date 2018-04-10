@@ -7,7 +7,11 @@
       <template name="Dockerfile with filebeat." reformat="true" live-template-enabled="true" />
       <template name="entrypoint with filebeat.sh" reformat="true" live-template-enabled="true" />
       <template name="filebeat.yml" reformat="true" live-template-enabled="true" />
-      <template name="log4j2.xml" reformat="true" live-template-enabled="true" />
+      <template name="Flyway V1.1__PopulateData.sql" reformat="true" live-template-enabled="true" />
+      <template name="Flyway V1__Init.sql" reformat="true" live-template-enabled="true" />
+      <template name="junit-platform.properties" reformat="true" live-template-enabled="true" />
+      <template name="log4j2.xml" reformat="false" live-template-enabled="true" />
+      <template name="log4j2 for tracing.xml" reformat="false" live-template-enabled="true" />
       <template name="settings.gradle" reformat="true" live-template-enabled="true" />
     </default_templates>
   </component>
