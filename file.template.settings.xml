@@ -1,8 +1,8 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
-      <template name="application.yml.yml" reformat="true" live-template-enabled="true" />
-      <template name="bootstrap.yml.yml" reformat="true" live-template-enabled="true" />
+      <template name="application.yml" reformat="true" live-template-enabled="true" />
+      <template name="bootstrap.yml" reformat="true" live-template-enabled="true" />
       <template name="Dockerfile." reformat="true" live-template-enabled="true" />
       <template name="Dockerfile with filebeat." reformat="true" live-template-enabled="true" />
       <template name="entrypoint with filebeat.sh" reformat="true" live-template-enabled="true" />
