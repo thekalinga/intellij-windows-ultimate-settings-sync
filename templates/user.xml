@@ -1,38 +1,20 @@
 <templateSet group="user">
-  <template name="log4j2-deps" value="compile('org.springframework.boot:spring-boot-starter') {&#10;        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'&#10;    }&#10;    compile('org.springframework.boot:spring-boot-starter-log4j2')" description="spring boot log4j2 dependencies" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="GROOVY_EXPRESSION" value="true" />
-      <option name="GROOVY_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="mapstruct" value="ext {&#10;    mapstructVersion = '1.2.0.Final'&#10;}&#10;&#10;// TODO: Add `mapstruct.defaultComponentModel=spring` as an annotation processor argument&#10;// in the annotation processors section of intellij Annotation processor settings&#10;// That way, intellij builtin compiler also gets the same arguments as below&#10;compileJava {&#10;    dependsOn processResources&#10;    options.compilerArgs = [&#10;            '-Amapstruct.suppressGeneratorTimestamp=true',&#10;            '-Amapstruct.suppressGeneratorVersionInfoComment=true',&#10;            '-Amapstruct.defaultComponentModel=spring'&#10;    ]&#10;}&#10;&#10;dependencies {&#10;    // lombok + mapstruct&#10;    compileOnly(&quot;org.mapstruct:mapstruct-processor:${mapstructVersion}&quot;)&#10;    compileOnly(&quot;org.mapstruct:mapstruct-jdk8:${mapstructVersion}&quot;)&#10;    compileOnly('org.projectlombok:lombok')&#10;&#10;    annotationProcessor(&quot;org.projectlombok:lombok&quot;)&#10;    annotationProcessor(&quot;org.mapstruct:mapstruct-processor:${mapstructVersion}&quot;)&#10;}" description="Maps struct dependency configuration" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="GROOVY_DECLARATION" value="true" />
-      <option name="GROOVY_EXPRESSION" value="true" />
-      <option name="GROOVY_STATEMENT" value="true" />
-    </context>
-  </template>
   <template name="configuration-processor" value="// autogenerates configuration suggestions&#10;    compileOnly('org.springframework.boot:spring-boot-configuration-processor')&#10;    annotationProcessor('org.springframework.boot:spring-boot-configuration-processor')" description="Dependency configuration that autogenerate spring-metadata.json" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="__gradle_junit" value="buildscript {&#10;  ext {&#10;    junitPlatformPluginVersion = '1.1.0'&#10;    assertjGeneratorVersion = '0.0.6b'&#10;  }&#10;  repositories {&#10;    mavenCentral()&#10;    maven {&#10;      url &quot;https://plugins.gradle.org/m2/&quot;&#10;    }&#10;  }&#10;  dependencies {&#10;    classpath(&quot;org.junit.platform:junit-platform-gradle-plugin:${junitPlatformPluginVersion}&quot;)&#10;    classpath(&quot;gradle.plugin.org.assertj:assertj-generator-gradle-plugin:${assertjGeneratorVersion}&quot;)&#10;  }&#10;}&#10;&#10;apply plugin: 'org.junit.platform.gradle.plugin'&#10;apply plugin: &quot;org.assertj.generator&quot;&#10;&#10;sourceSets {&#10;  main {&#10;    assertJ {&#10;      // TODO: comment this out to generate assertj assert, copy interesting ones to test source &amp; uncomment this to avoid duplicates&#10;      skip = true&#10;    }&#10;  }&#10;}&#10;&#10;dependencies {&#10;  // junit5&#10;  testCompile('org.junit.jupiter:junit-jupiter-api')&#10;  testCompile('org.junit.jupiter:junit-jupiter-engine')&#10;  testCompile('org.junit.jupiter:junit-jupiter-params')&#10;  testCompile('org.junit.vintage:junit-vintage-engine')&#10;}&#10;&#10;configurations {&#10;  // auto generated tests from spring cloud contract forces us not to exclude &lt; junit 5 classes aswell&#10;  // all*.exclude group: 'junit', module: 'junit'&#10;}&#10;&#10;// TODO: Add following configuration to test/resources/junit-platform.properties &#10;// # JUnit5 Spring Configuration&#10;// # We want the application context to be reused between tests within the top level test class&#10;// junit.jupiter.testinstance.lifecycle.default=per_class&#10;// junit.jupier.extensions.autodetection.enabled=true" description="" toReformat="true" toShortenFQNames="true">
+  <template name="__gradle_junit" value="buildscript {&#10;  repositories {&#10;    mavenCentral()&#10;    maven {&#10;      url &quot;https://plugins.gradle.org/m2/&quot;&#10;    }&#10;  }&#10;  dependencies {&#10;    classpath(&quot;org.junit.platform:junit-platform-gradle-plugin:${junitPlatformPluginVersion}&quot;)&#10;    classpath(&quot;gradle.plugin.org.assertj:assertj-generator-gradle-plugin:${assertjGeneratorVersion}&quot;)&#10;  }&#10;}&#10;&#10;apply plugin: 'org.junit.platform.gradle.plugin'&#10;apply plugin: &quot;org.assertj.generator&quot;&#10;&#10;sourceSets {&#10;  main {&#10;    assertJ {&#10;      // TODO: comment this out to generate assertj assert, copy interesting ones to test source &amp; uncomment this to avoid duplicates&#10;      skip = true&#10;    }&#10;  }&#10;}&#10;&#10;dependencies {&#10;  // junit5&#10;  testCompile('org.junit.jupiter:junit-jupiter-api')&#10;  testCompile('org.junit.jupiter:junit-jupiter-engine')&#10;  testCompile('org.junit.jupiter:junit-jupiter-params')&#10;  testCompile('org.junit.vintage:junit-vintage-engine')&#10;}&#10;&#10;configurations {&#10;  // auto generated tests from spring cloud contract forces us not to exclude &lt; junit 5 classes aswell&#10;  // all*.exclude group: 'junit', module: 'junit'&#10;}&#10;&#10;// TODO: Add following configuration to test/resources/junit-platform.properties &#10;// # JUnit5 Spring Configuration&#10;// # We want the application context to be reused between tests within the top level test class&#10;// junit.jupiter.testinstance.lifecycle.default=per_class&#10;// junit.jupier.extensions.autodetection.enabled=true" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="__gradle_log4j2" value="ext {&#10;  lmaxDisruptorVersion='3.4.1'&#10;}&#10;&#10;dependencies {&#10;  // log4j2&#10;  compile('org.springframework.boot:spring-boot-starter-log4j2')&#10;  compile('org.apache.logging.log4j:log4j-jcl')&#10;  compile('org.apache.logging.log4j:log4j-jul')&#10;  compile(&quot;com.lmax:disruptor:${lmaxDisruptorVersion}&quot;) // supports async loggers&#10;}&#10;&#10;configurations {&#10;  // log4j2 is much better than slf4j. Lets remove that form dependencies&#10;  all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
+  <template name="__gradle_log4j2" value="dependencies {&#10;  // log4j2&#10;  compile('org.springframework.boot:spring-boot-starter-log4j2')&#10;  compile('org.apache.logging.log4j:log4j-jcl')&#10;  compile('org.apache.logging.log4j:log4j-jul')&#10;  compile(&quot;com.lmax:disruptor:${lmaxDisruptorVersion}&quot;) // supports async loggers&#10;}&#10;&#10;configurations {&#10;  // log4j2 is much better than slf4j. Lets remove that form dependencies&#10;  all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
-    </context>
-  </template>
-  <template name="__lombok_json" value="@lombok.Getter&#10;@lombok.Builder&#10;@lombok.AllArgsConstructor&#10;@lombok.ToString&#10;@lombok.EqualsAndHashCode" description="" toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
   <template name="__gradle_lombok+" value="dependencies {&#10;  // lombok&#10;  compileOnly('org.projectlombok:lombok')&#10;  annotationProcessor(&quot;org.projectlombok:lombok&quot;)&#10;  compileOnly(&quot;org.jetbrains:annotations:${jetbrainsAnnotationsVersion}&quot;)&#10;}&#10;&#10;// TODO: Create a file named src/lombok.config with the following content&#10;// lombok.anyConstructor.suppressConstructorProperties=false&#10;// config.stopBubbling=true&#10;// TODO: Also add these properties to intellij annotation processor&#10;" description="" toReformat="true" toShortenFQNames="true">
@@ -61,6 +43,12 @@
       <option name="SSP" value="false" />
       <option name="XML" value="false" />
       <option name="sbt" value="false" />
+    </context>
+  </template>
+  <template name="__gradle_flyway_test" value="testCompile(&quot;org.flywaydb.flyway-test-extensions:flyway-spring5-test:${flywayTestExtensionVersion}&quot;)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
