@@ -45,7 +45,7 @@
       <option name="sbt" value="false" />
     </context>
   </template>
-  <template name="__gradle_flyway_test" value="testCompile(&quot;org.flywaydb.flyway-test-extensions:flyway-spring5-test:${flywayTestExtensionVersion}&quot;)" toReformat="true" toShortenFQNames="true">
+  <template name="__gradle_flyway_test" value="testCompile(&quot;org.flywaydb.flyway-test-extensions:flyway-spring5-test:${flywayTestExtensionVersion}&quot;)" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GROOVY_EXPRESSION" value="true" />
       <option name="GROOVY_STATEMENT" value="true" />
