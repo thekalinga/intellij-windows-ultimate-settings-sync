@@ -51,7 +51,7 @@
       <option name="GROOVY_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="__junit_jdbc" value="java.sql.Connection connection = java.sql.DriverManager.getConnection(&quot;jdbc:h2:mem:testdb&quot;, &quot;sa&quot;, &quot;&quot;);&#10;    java.sql.Statement statement = connection.createStatement();&#10;    statement.execute(&quot;create table user (id int, name varchar(255))&quot;);&#10;    statement.execute(&quot;insert into user (id, name) values (1, 'Demo User')&quot;);&#10;    java.sql.ResultSet resultSet = statement.executeQuery(&quot;select * from user&quot;);&#10;    resultSet.next();&#10;    assertThat(resultSet.getInt(&quot;id&quot;)).isEqualTo(1);&#10;    assertThat(resultSet.getString(&quot;name&quot;)).isEqualTo(&quot;Demo User&quot;);" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+  <template name="__junit_jdbc" value="java.sql.Connection connection = java.sql.DriverManager.getConnection(&quot;jdbc:h2:mem:testdb&quot;, &quot;sa&quot;, &quot;&quot;);&#10;    java.sql.Statement statement = connection.createStatement();&#10;    statement.execute(&quot;create table user (id int, name varchar(255))&quot;);&#10;    statement.execute(&quot;insert into user (id, name) values (1, 'Demo User')&quot;);&#10;    java.sql.ResultSet resultSet = statement.executeQuery(&quot;select * from user&quot;);&#10;    resultSet.next();&#10;    assertThat(resultSet.getInt(&quot;id&quot;)).isEqualTo(1);&#10;    assertThat(resultSet.getString(&quot;name&quot;)).isEqualTo(&quot;Demo User&quot;);" description="" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
