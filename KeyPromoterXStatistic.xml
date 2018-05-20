@@ -81,6 +81,14 @@
           <Count>6</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ServerMain'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ServerMain'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'XmlApplicationContextPlayground'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
