@@ -11,6 +11,7 @@
       <template name="Flyway V1__Init.sql" reformat="true" live-template-enabled="true" />
       <template name="gradle_multi_module_root.gradle" reformat="true" live-template-enabled="true" />
       <template name="gradle_settings.gradle" reformat="true" live-template-enabled="true" />
+      <template name="gradle_shared_common.gradle" reformat="true" live-template-enabled="true" />
       <template name="gradle_shared_spring-cloud-contract-stub-generator.gradle" reformat="true" live-template-enabled="true" />
       <template name="junit-platform.properties" reformat="true" live-template-enabled="true" />
       <template name="log4j2.xml" reformat="false" live-template-enabled="true" />
