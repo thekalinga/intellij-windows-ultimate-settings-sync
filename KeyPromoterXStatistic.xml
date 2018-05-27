@@ -57,6 +57,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'ReactorTests.flux_must_buffer'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'ReactorTests.flux_must_buffer'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'ServerMain'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -97,6 +105,14 @@
           <Count>6</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ReactorTests.flux_must_buffer'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ReactorTests.flux_must_buffer'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ServerMain'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -118,7 +134,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>35</Count>
+          <Count>36</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
