@@ -40,6 +40,7 @@
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="factories" type="Properties" />
       <mapping ext="sif" type="XML" />
+      <mapping ext="kdenlive" type="XML" />
     </extensionMap>
   </component>
 </application>
