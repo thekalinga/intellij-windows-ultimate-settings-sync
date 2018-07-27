@@ -4,5 +4,9 @@
       <display-name>StringBuilder.append (java.lang)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("append").withParameters("java.lang.String").definedInClass("java.lang.StringBuilder"))]]></place>
     </injection>
+    <injection language="RegExp" injector-id="xml">
+      <display-name>entry/@out</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("out")).withParent(xmlTag().withLocalName(string().equalTo("entry")))]]></place>
+    </injection>
   </component>
 </application>
