@@ -153,6 +153,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'FxFluxTest.testObservableListChanges'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'FxFluxTest.testObservableListChanges'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'Play'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
