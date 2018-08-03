@@ -62,7 +62,7 @@
           <IdeaActionID>XDebugger.MuteBreakpoints</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+M'</ShortCut>
           <Description>Mute Breakpoints</Description>
-          <Count>3</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Watch...">
@@ -110,6 +110,14 @@
           <IdeaActionID>Hotswap</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+R'</ShortCut>
           <Description>Reload Changed Classes</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Remove Watch">
+        <Item>
+          <IdeaActionID>Debugger.RemoveCustomField</IdeaActionID>
+          <ShortCut>'Delete'</ShortCut>
+          <Description>Remove Watch</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -222,7 +230,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>18</Count>
+          <Count>19</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
@@ -310,7 +318,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>183</Count>
+          <Count>197</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">

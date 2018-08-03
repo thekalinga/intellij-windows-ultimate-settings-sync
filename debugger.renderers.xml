@@ -21,6 +21,15 @@
     </Renderer>
     <CustomRenderers VERSION="8">
       <Renderer ID="CompoundTypeRenderer">
+        <option name="NAME" value="javafx.scene.Parent$3" />
+        <option name="ENABLED" value="true" />
+        <option name="QUALIFIED_NAME" value="javafx.scene.Parent$3" />
+        <Renderer ID="EnumerationChildrenRenderer" role="children">
+          <option name="QUALIFIED_NAME" value="javafx.scene.Parent$3" />
+          <option name="AppendDefault" value="true" />
+        </Renderer>
+      </Renderer>
+      <Renderer ID="CompoundTypeRenderer">
         <option name="NAME" value="YamlValue" />
         <option name="ENABLED" value="true" />
         <option name="QUALIFIED_NAME" value="org.jetbrains.yaml.psi.YAMLValue" />
