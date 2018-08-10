@@ -105,6 +105,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Recompile 'JNITest.java'">
+        <Item>
+          <IdeaActionID>Compile</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F9'</ShortCut>
+          <Description>Recompile 'JNITest.java'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Redo Typing">
         <Item>
           <IdeaActionID>$Redo</IdeaActionID>
