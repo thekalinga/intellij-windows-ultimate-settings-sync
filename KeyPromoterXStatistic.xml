@@ -382,7 +382,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'MultCloudRemoteUploadProviderTest.fetchLoginCaptcha'</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'MultCloudRemoteUploadProviderTest.loginIsSuccessful'">
