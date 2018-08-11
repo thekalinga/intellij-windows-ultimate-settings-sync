@@ -217,6 +217,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'MultCloudRemoteUploadProviderTest.registrationIsSuccessful'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'MultCloudRemoteUploadProviderTest.registrationIsSuccessful'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'OcrTest.ocr'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
