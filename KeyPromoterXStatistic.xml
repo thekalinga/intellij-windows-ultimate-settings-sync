@@ -6,7 +6,7 @@
           <IdeaActionID>Images.Editor.ActualSize</IdeaActionID>
           <ShortCut>'Ctrl+NumPad /' or 'Ctrl+/'</ShortCut>
           <Description>Actual Size</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Add to VCS">
