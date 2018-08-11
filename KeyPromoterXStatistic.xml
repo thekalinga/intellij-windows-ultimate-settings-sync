@@ -217,6 +217,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'MultCloudRemoteUploadProviderTest.linkWithMegaIsSuccessful'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'MultCloudRemoteUploadProviderTest.linkWithMegaIsSuccessful'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'MultCloudRemoteUploadProviderTest.loginIsSuccessful'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
