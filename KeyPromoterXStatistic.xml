@@ -369,6 +369,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'MultCloudRemoteUploadProviderTest.fetchLoginCaptcha'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'MultCloudRemoteUploadProviderTest.fetchLoginCaptcha'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'MultCloudRemoteUploadProviderTest.loginIsSuccessful'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -470,7 +478,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>355</Count>
+          <Count>360</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
