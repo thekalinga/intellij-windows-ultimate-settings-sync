@@ -6,7 +6,7 @@
           <IdeaActionID>Images.Editor.ActualSize</IdeaActionID>
           <ShortCut>'Ctrl+NumPad /' or 'Ctrl+/'</ShortCut>
           <Description>Actual Size</Description>
-          <Count>3</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Add to VCS">
@@ -454,7 +454,7 @@
           <IdeaActionID>Images.Editor.ZoomIn</IdeaActionID>
           <ShortCut>'Ctrl+NumPad +' or 'Ctrl+='</ShortCut>
           <Description>Zoom In</Description>
-          <Count>4</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Zoom Out">
@@ -462,7 +462,7 @@
           <IdeaActionID>Images.Editor.ZoomOut</IdeaActionID>
           <ShortCut>'Ctrl+NumPad -' or 'Ctrl+Minus'</ShortCut>
           <Description>Zoom Out</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
     </option>
