@@ -417,6 +417,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ObservableTests.observerTests'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ObservableTests.observerTests'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'OcrTest.ocr'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -502,7 +510,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>396</Count>
+          <Count>403</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
