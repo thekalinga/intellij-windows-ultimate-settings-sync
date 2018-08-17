@@ -505,6 +505,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'TakeSubscriberTests.verifyReceiveCorrectEvents'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'TakeSubscriberTests.verifyReceiveCorrectEvents'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'XmlApplicationContextPlayground'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -518,7 +526,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>403</Count>
+          <Count>408</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
