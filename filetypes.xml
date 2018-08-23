@@ -1,12 +1,12 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
       <mapping ext="prc" type="DBN-PSQL" />
       <mapping ext="trg" type="DBN-PSQL" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="tps" type="DBN-PSQL" />
-      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="pks" type="DBN-PSQL" />
       <mapping ext="tpb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
@@ -35,7 +35,6 @@
       <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
-      <mapping ext="scpt" type="PLAIN_TEXT" />
       <mapping ext="linkgrabber" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="pages" type="PLAIN_TEXT" />
@@ -44,6 +43,7 @@
       <mapping ext="factories" type="Properties" />
       <mapping ext="sif" type="XML" />
       <mapping ext="kdenlive" type="XML" />
+      <mapping ext="sdef" type="XML" />
     </extensionMap>
   </component>
 </application>
