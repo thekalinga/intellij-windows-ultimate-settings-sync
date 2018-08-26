@@ -369,6 +369,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Show in Files">
+        <Item>
+          <IdeaActionID>RevealIn</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+E'</ShortCut>
+          <Description>Show in Files</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'Application'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
