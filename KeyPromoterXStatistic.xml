@@ -545,6 +545,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ReactorTests.virtualScheduler'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ReactorTests.virtualScheduler'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ServerMain'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
