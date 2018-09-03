@@ -65,6 +65,14 @@
           <Count>28</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Find in Path...">
+        <Item>
+          <IdeaActionID>FindInPath</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F'</ShortCut>
+          <Description>Find in Path...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Hide All Windows">
         <Item>
           <IdeaActionID>HideAllWindows</IdeaActionID>
@@ -374,7 +382,7 @@
           <IdeaActionID>RevealIn</IdeaActionID>
           <ShortCut>'Ctrl+Alt+E'</ShortCut>
           <Description>Show in Files</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Application'">
