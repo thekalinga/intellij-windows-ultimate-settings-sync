@@ -50,7 +50,7 @@
                 </VFile>
                 <VFile>
                   <option name="enabled" value="true" />
-                  <option name="url" value="https://gist.githubusercontent.com/thekalinga/00971700cab11767f80320b6f90666fb/raw/59586d6006ccfbfc581064d400ce465e37013997/custom.postfixTemplates" />
+                  <option name="url" value="https://gist.githubusercontent.com/thekalinga/00971700cab11767f80320b6f90666fb/raw/701fce70c70dbc17c7b07d0b39e8cc3d9a150405/custom.postfixTemplates" />
                   <option name="file" value="${PLUGIN}/java/myCustom.postfixTemplates" />
                 </VFile>
               </list>
