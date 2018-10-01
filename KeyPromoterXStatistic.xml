@@ -398,7 +398,7 @@
           <IdeaActionID>RevealIn</IdeaActionID>
           <ShortCut>'Ctrl+Alt+E'</ShortCut>
           <Description>Show in Files</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Application'">
