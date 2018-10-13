@@ -110,7 +110,7 @@
           <IdeaActionID>XDebugger.MuteBreakpoints</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+M'</ShortCut>
           <Description>Mute Breakpoints</Description>
-          <Count>12</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Watch...">
@@ -319,6 +319,14 @@
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'ReactorTests.context'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'ReactorTests.flushNetworkBufferWithPings_test_interval_triggered_regularly'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'ReactorTests.flushNetworkBufferWithPings_test_interval_triggered_regularly'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'ReactorTests.flux_must_buffer'">
@@ -545,6 +553,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ReactorTests.flushNetworkBufferWithPings_test_interval_triggered_regularly'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ReactorTests.flushNetworkBufferWithPings_test_interval_triggered_regularly'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ReactorTests.flux_must_buffer'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -638,7 +654,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>466</Count>
+          <Count>469</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
