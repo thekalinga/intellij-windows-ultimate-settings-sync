@@ -609,6 +609,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ReactorTests.usingNewSchedulerClock_test_interval_triggered_regularly'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ReactorTests.usingNewSchedulerClock_test_interval_triggered_regularly'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ReactorTests.virtualScheduler'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -654,7 +662,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>473</Count>
+          <Count>479</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
