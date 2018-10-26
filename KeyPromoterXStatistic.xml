@@ -110,7 +110,7 @@
           <IdeaActionID>XDebugger.MuteBreakpoints</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+M'</ShortCut>
           <Description>Mute Breakpoints</Description>
-          <Count>18</Count>
+          <Count>20</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Watch...">
@@ -446,7 +446,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'EntryPoint'</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Entrypoint'">
@@ -662,7 +662,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>511</Count>
+          <Count>512</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
