@@ -1,5 +1,7 @@
 <application>
   <component name="ExternalResourceManagerImpl">
     <resource url="http://www.springframework.org/schema/integration" location="$USER_HOME$/.IntelliJIdea15/system/extResources/a54783c7_spring-integration.xsd" />
+    <resource url="http://www.w3.org/2001/xml.xsd" location="$USER_HOME$/.IdeaIC2018.2/system/extResources/9b192256_xml.xsd" />
+    <resource url="http://xmlns.jcp.org/xml/ns/javaee" location="$USER_HOME$/.IdeaIC2018.2/system/extResources/f6816120_web-app_4_0.xsd" />
   </component>
 </application>
