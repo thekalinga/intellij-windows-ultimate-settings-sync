@@ -1,17 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="tpe" type="DBN-PSQL" />
-      <mapping ext="pks" type="DBN-PSQL" />
-      <mapping ext="prc" type="DBN-PSQL" />
-      <mapping ext="trg" type="DBN-PSQL" />
-      <mapping ext="fnc" type="DBN-PSQL" />
-      <mapping ext="tps" type="DBN-PSQL" />
-      <mapping ext="tpb" type="DBN-PSQL" />
-      <mapping ext="pkg" type="DBN-PSQL" />
-      <mapping ext="pkb" type="DBN-PSQL" />
-      <mapping ext="vw" type="DBN-SQL" />
-      <mapping ext="" type="Dockerfile" />
+      <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="har" type="JSON" />
       <mapping ext="tex" type="Native" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
@@ -34,19 +24,30 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
+      <mapping ext="ts" type="PLAIN_TEXT" />
+      <mapping ext="pages" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="m3u8" type="PLAIN_TEXT" />
-      <mapping ext="ts" type="PLAIN_TEXT" />
       <mapping ext="linkgrabber" type="PLAIN_TEXT" />
+      <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
-      <mapping ext="pages" type="PLAIN_TEXT" />
       <mapping ext="2" type="PLAIN_TEXT" />
-      <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="factories" type="Properties" />
       <mapping ext="sif" type="XML" />
       <mapping ext="kdenlive" type="XML" />
       <mapping ext="sdef" type="XML" />
+      <mapping ext="" type="Dockerfile" />
+      <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="pkb" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="tpb" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="tps" type="DBN-PSQL" />
+      <mapping ext="trg" type="DBN-PSQL" />
+      <mapping ext="vw" type="DBN-SQL" />
     </extensionMap>
   </component>
 </application>
