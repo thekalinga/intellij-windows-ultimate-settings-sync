@@ -766,7 +766,7 @@
           <IdeaActionID>GotoTypeDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+Shift+B' or 'Ctrl+Shift+Button1 Click'</ShortCut>
           <Description>Type Declaration</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="View Breakpoints...">
