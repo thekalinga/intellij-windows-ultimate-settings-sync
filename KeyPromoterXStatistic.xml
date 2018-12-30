@@ -25,6 +25,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Clear All">
+        <Item>
+          <IdeaActionID>ConsoleView.ClearAll</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+C'</ShortCut>
+          <Description>Clear All</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Commit...">
         <Item>
           <IdeaActionID>CheckinProject</IdeaActionID>
