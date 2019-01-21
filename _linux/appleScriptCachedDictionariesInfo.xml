@@ -1,0 +1,12 @@
+<application>
+  <component name="AppleScriptSystemDictionaryRegistryComponent">
+    <applicationsInfo>
+      <dictionary-info applicationName="Standard Terminology">
+        <option name="dictionaryUrl" value="$USER_HOME$/.IdeaIC2018.3/system/sdef/Standard_Terminology_generated.sdef" />
+      </dictionary-info>
+      <dictionary-info applicationName="Scripting Additions">
+        <option name="dictionaryUrl" value="$USER_HOME$/.IdeaIC2018.3/system/sdef/Scripting_Additions_generated.sdef" />
+      </dictionary-info>
+    </applicationsInfo>
+  </component>
+</application>
