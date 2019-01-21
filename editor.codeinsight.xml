@@ -2,5 +2,6 @@
   <component name="CodeInsightSettings">
     <EXCLUDED_PACKAGE NAME="java.awt" />
     <EXCLUDED_PACKAGE NAME="javax.swing" />
+    <EXCLUDED_PACKAGE NAME="org.omg.CORBA" />
   </component>
 </application>
