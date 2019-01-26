@@ -609,6 +609,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'NlHaftaTest.getTracks'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'NlHaftaTest.getTracks'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ObservableTests.observerTests'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
