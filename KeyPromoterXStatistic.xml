@@ -217,12 +217,20 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Refresh Gradle project">
+        <Item>
+          <IdeaActionID>ExternalSystem.RefreshProject</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+G'</ShortCut>
+          <Description>Refresh Gradle project</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Refresh all Gradle projects">
         <Item>
           <IdeaActionID>ExternalSystem.RefreshAllProjects</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+G'</ShortCut>
           <Description>Refresh all Gradle projects</Description>
-          <Count>12</Count>
+          <Count>14</Count>
         </Item>
       </Statistic>
       <Statistic Action="Reload Changed Classes">
