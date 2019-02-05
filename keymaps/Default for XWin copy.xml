@@ -7,6 +7,10 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
   <action id="CollapseTreeNode">
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <keyboard-shortcut first-keystroke="ctrl subtract" />
@@ -14,6 +18,22 @@
   </action>
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
+  <action id="DBNavigator.Actions.Browser.CollapseTree">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="DBNavigator.Actions.Browser.ExpandTree">
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="DBNavigator.Actions.ExplainPlanResult.CollapseAll">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="DBNavigator.Actions.ExplainPlanResult.ExpandAll">
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="EditorDeleteLine">
@@ -38,12 +58,21 @@
   <action id="ExternalSystem.RefreshProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
+  <action id="FindBugs.CollapseAllAction">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+  </action>
+  <action id="FindBugs.ExpandAllAction">
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
   <action id="FullyExpandTreeNode">
     <keyboard-shortcut first-keystroke="ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="ctrl alt add" />
   </action>
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
@@ -58,8 +87,8 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="Scala.ShowImplicits">
-    <keyboard-shortcut first-keystroke="shift ctrl alt minus" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt subtract" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
