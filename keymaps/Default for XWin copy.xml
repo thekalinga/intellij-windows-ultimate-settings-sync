@@ -114,6 +114,9 @@
   <action id="Testing.SelectInTree">
     <keyboard-shortcut first-keystroke="shift ctrl alt open_bracket" />
   </action>
+  <action id="TogglePresentationMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+  </action>
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl alt m" />
   </action>
