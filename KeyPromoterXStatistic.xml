@@ -33,6 +33,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Collapse All">
+        <Item>
+          <IdeaActionID>ExternalSystem.CollapseAll</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+NumPad -' or 'Ctrl+Shift+Minus'</ShortCut>
+          <Description>Collapse All</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Commit...">
         <Item>
           <IdeaActionID>CheckinProject</IdeaActionID>
@@ -95,6 +103,14 @@
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Execute Statement</Description>
           <Count>28</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Expand All">
+        <Item>
+          <IdeaActionID>ExternalSystem.ExpandAll</IdeaActionID>
+          <ShortCut>'Ctrl+NumPad +' or 'Ctrl+='</ShortCut>
+          <Description>Expand All</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Action...">
