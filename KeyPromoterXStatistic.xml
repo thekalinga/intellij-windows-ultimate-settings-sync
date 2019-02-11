@@ -185,6 +185,14 @@
           <Count>5</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Open Library Settings">
+        <Item>
+          <IdeaActionID>EditSource</IdeaActionID>
+          <ShortCut>'F4'</ShortCut>
+          <Description>Open Library Settings</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Paste">
         <Item>
           <IdeaActionID>$Paste</IdeaActionID>
