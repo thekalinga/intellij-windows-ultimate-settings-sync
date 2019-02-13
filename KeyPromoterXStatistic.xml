@@ -174,7 +174,7 @@
           <IdeaActionID>XDebugger.MuteBreakpoints</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+M'</ShortCut>
           <Description>Mute Breakpoints</Description>
-          <Count>50</Count>
+          <Count>51</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Watch...">
@@ -854,7 +854,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1027</Count>
+          <Count>1028</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
