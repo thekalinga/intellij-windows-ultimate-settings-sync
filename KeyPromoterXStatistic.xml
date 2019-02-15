@@ -102,7 +102,7 @@
           <IdeaActionID>DBNavigator.Actions.Execute</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Execute Statement</Description>
-          <Count>46</Count>
+          <Count>47</Count>
         </Item>
       </Statistic>
       <Statistic Action="Expand All">
