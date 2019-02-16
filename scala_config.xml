@@ -1,5 +1,6 @@
 <application>
   <component name="ScalaApplicationSettings">
+    <option name="ASK_USE_LATEST_PLUGIN_BUILDS" value="false" />
     <option name="SUGGEST_IMPLICIT_HINTS" value="false" />
   </component>
   <component name="TypeAwareHighlightingApplicationState">
