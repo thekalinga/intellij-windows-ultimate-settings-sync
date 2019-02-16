@@ -841,6 +841,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'boot-workshop [Launcher.main()]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'boot-workshop [Launcher.main()]'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'boot-workshop [bootRun]'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -862,7 +870,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1029</Count>
+          <Count>1034</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
