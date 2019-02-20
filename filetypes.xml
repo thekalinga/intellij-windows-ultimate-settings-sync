@@ -44,6 +44,7 @@
       <mapping ext="pages" type="PLAIN_TEXT" />
       <mapping ext="2" type="PLAIN_TEXT" />
       <mapping ext="vba" type="PLAIN_TEXT" />
+      <mapping ext="banner" type="PLAIN_TEXT" />
       <mapping ext="helloworldgreetingprovider" type="PLAIN_TEXT" />
       <mapping ext="factories" type="Properties" />
       <mapping ext="sif" type="XML" />
