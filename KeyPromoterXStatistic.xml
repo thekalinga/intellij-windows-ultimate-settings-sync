@@ -9,6 +9,14 @@
           <Count>9</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Add">
+        <Item>
+          <IdeaActionID>Git.Add</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+A'</ShortCut>
+          <Description>Add</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Add to VCS">
         <Item>
           <IdeaActionID>ChangesView.AddUnversioned</IdeaActionID>
