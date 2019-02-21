@@ -190,7 +190,7 @@
           <IdeaActionID>XDebugger.MuteBreakpoints</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+M'</ShortCut>
           <Description>Mute Breakpoints</Description>
-          <Count>51</Count>
+          <Count>57</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Watch...">
@@ -361,6 +361,22 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'HystrixDashboardApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'HystrixDashboardApplication'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'InventoryServiceApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'InventoryServiceApplication'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'JNITest.loadMega'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -431,6 +447,14 @@
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'OcrTest.ocr'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'OrderServiceApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'OrderServiceApplication'</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Play'">
@@ -558,7 +582,7 @@
           <IdeaActionID>Resume</IdeaActionID>
           <ShortCut>'F9'</ShortCut>
           <Description>Resume Program</Description>
-          <Count>45</Count>
+          <Count>46</Count>
         </Item>
       </Statistic>
       <Statistic Action="Settings...">
@@ -655,6 +679,22 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'Entrypoint'</Description>
           <Count>20</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'HystrixDashboardApplication'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'HystrixDashboardApplication'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'InventoryServiceApplication'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'InventoryServiceApplication'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'MailDropDisposableMailProviderTest.newMailSource'">
@@ -1006,7 +1046,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1056</Count>
+          <Count>1082</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
@@ -1022,7 +1062,7 @@
           <IdeaActionID>ViewBreakpoints</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F8'</ShortCut>
           <Description>View Breakpoints...</Description>
-          <Count>8</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Zoom In">
