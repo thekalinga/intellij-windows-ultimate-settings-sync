@@ -494,7 +494,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'OrderServiceApplication'</Description>
-          <Count>10</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Play'">
@@ -854,7 +854,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'OrderServiceApplication'</Description>
-          <Count>3</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Play'">
@@ -990,7 +990,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'ServiceRegistryApplication - Standalone'</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'ServiceRegistryApplication - Standlone'">
