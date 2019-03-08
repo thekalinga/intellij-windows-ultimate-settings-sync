@@ -1177,6 +1177,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'spring-mvc-with-embedded-tomcat [BootApplication.main()]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'spring-mvc-with-embedded-tomcat [BootApplication.main()]'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'spring-mvc-with-embedded-tomcat [VanillaApplication.main()]'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
