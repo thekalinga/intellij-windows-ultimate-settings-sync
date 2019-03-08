@@ -1182,7 +1182,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'spring-mvc-with-embedded-tomcat [BootApplication.main()]'</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'spring-mvc-with-embedded-tomcat [VanillaApplication.main()]'">
@@ -1190,7 +1190,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'spring-mvc-with-embedded-tomcat [VanillaApplication.main()]'</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'synechron-monolith-to-micro-services-migration [OrderServiceApplication.main()]'">
