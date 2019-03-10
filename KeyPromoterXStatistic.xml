@@ -1214,7 +1214,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1378</Count>
+          <Count>1380</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
