@@ -94,7 +94,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>118</Count>
+          <Count>123</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -593,6 +593,22 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'ServiceRegistryApplication - Peer1'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'ServiceRegistryApplication - Peer1'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'ServiceRegistryApplication - Peer2'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'ServiceRegistryApplication - Peer2'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'ServiceRegistryApplication - Standalone'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -606,7 +622,7 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'ServiceRegistryApplication'</Description>
-          <Count>6</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'SpringJpaWithoutBootApplication'">
@@ -639,6 +655,14 @@
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'TakeSubscriberTests.exponentialTillLimitThenCancel'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'UpstreamServiceApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'UpstreamServiceApplication'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'XmlApplicationContextPlayground'">
@@ -1073,6 +1097,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ServiceRegistryApplication - Peer1'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ServiceRegistryApplication - Peer1'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ServiceRegistryApplication - Standalone'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1094,7 +1126,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'ServiceRegistryApplication'</Description>
-          <Count>7</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'SpringJpaWithoutBootApplication'">
@@ -1238,7 +1270,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1416</Count>
+          <Count>1418</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
