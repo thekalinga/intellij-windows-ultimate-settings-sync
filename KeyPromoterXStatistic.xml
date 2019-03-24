@@ -94,7 +94,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>291</Count>
+          <Count>304</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -686,6 +686,14 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'Ctrl+F5'</ShortCut>
           <Description>Rerun 'UpstreamServiceApplication - Instance1'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'UpstreamServiceApplication - Instance2'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'UpstreamServiceApplication - Instance2'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -1233,6 +1241,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'UpstreamServiceApplication - Instance1'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'UpstreamServiceApplication - Instance1'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'UpstreamServiceApplication'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1326,7 +1342,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1510</Count>
+          <Count>1511</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
