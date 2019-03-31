@@ -825,6 +825,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop ':application:Application.main()'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop ':application:Application.main()'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop ':vanilla-spring:VanillaApplication.main()'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1390,7 +1398,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1541</Count>
+          <Count>1542</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
