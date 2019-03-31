@@ -809,6 +809,14 @@
           <Count>9</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop '0x-spring-boot-admin [Application.main()]'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop '0x-spring-boot-admin [Application.main()]'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop ':DemoApplication.main()'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1382,7 +1390,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1538</Count>
+          <Count>1541</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
