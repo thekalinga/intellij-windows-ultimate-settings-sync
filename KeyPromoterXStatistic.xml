@@ -94,7 +94,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>532</Count>
+          <Count>534</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -967,6 +967,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'MegaRemoteStorageManagerTest.registerAndConfirm_ThruResendActivationMail'</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'MonolithApplication'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'MonolithApplication'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'MultCloudRemoteUploadProviderTest.fetchLoginCaptcha'">
