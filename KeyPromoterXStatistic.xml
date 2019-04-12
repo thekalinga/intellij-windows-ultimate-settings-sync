@@ -94,7 +94,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>578</Count>
+          <Count>581</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1335,6 +1335,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'UpstreamServiceApplication'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'VanillaJavaTests.scheduleATaskAtFixedIntervalUsingExecutorService'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'VanillaJavaTests.scheduleATaskAtFixedIntervalUsingExecutorService'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'WebWithoutBootApplication'">
