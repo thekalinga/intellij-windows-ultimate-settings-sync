@@ -94,7 +94,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>612</Count>
+          <Count>613</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1070,6 +1070,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'OperatorTests.delayedColdPublisherCreation'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'OperatorTests.ofType'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'OperatorTests.ofType'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
