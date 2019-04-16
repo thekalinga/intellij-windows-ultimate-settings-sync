@@ -1081,6 +1081,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'OperatorTests.switchToNewStream'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'OperatorTests.switchToNewStream'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'OrderServiceApplication - Timeout 5K'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
