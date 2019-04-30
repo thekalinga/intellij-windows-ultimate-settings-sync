@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>856</Count>
+          <Count>858</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1502,7 +1502,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1628</Count>
+          <Count>1632</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
