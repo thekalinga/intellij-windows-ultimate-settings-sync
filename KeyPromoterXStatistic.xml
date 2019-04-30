@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>852</Count>
+          <Count>855</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1409,6 +1409,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'WebFluxScratchApplication'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'WebFluxScratchApplication'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'WebWithoutBootApplication'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1494,7 +1502,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1623</Count>
+          <Count>1627</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
