@@ -94,7 +94,7 @@
           <IdeaActionID>ChooseDebugConfiguration</IdeaActionID>
           <ShortCut>'Alt+Shift+F9'</ShortCut>
           <Description>Debug...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
