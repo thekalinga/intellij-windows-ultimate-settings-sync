@@ -38,4 +38,31 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="`" value="```$LANG$&#10;$END$&#10;```" description="code template in markdown" toReformat="true" toShortenFQNames="true">
+    <variable name="LANG" expression="" defaultValue="&quot;java&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
+  <template name="=3" value="=== $END$" description="Heading 3 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="=4" value="==== $END$" description="Heading 4 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="=5" value="===== $END$" description="Heading 5 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="=6" value="====== $END$" description="Heading 6 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
 </templateSet>
