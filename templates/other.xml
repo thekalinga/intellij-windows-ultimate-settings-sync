@@ -70,4 +70,10 @@
       <option name="AsciiDoc" value="true" />
     </context>
   </template>
+  <template name="`p" value="```properties&#10;$END$&#10;```" description="properties code template in markdown" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
 </templateSet>
