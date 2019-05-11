@@ -5,6 +5,10 @@
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").withParameters("java.lang.String", "org.springframework.jdbc.core.namedparam.SqlParameterSource", "org.springframework.jdbc.core.ResultSetExtractor").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
     </injection>
     <injection language="POSTGRES-SQL" injector-id="java">
+      <display-name>SqlSpec.sql (org.springframework.data.r2dbc.core.DatabaseClient)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("sql").withParameters("java.lang.String").definedInClass("org.springframework.data.r2dbc.core.DatabaseClient.SqlSpec"))]]></place>
+    </injection>
+    <injection language="POSTGRES-SQL" injector-id="java">
       <display-name>SqlSpec.sql (org.springframework.data.r2dbc.function.DatabaseClient)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("sql").withParameters("java.lang.String").definedInClass("org.springframework.data.r2dbc.function.DatabaseClient.SqlSpec"))]]></place>
     </injection>
