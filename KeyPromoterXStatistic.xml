@@ -94,7 +94,7 @@
           <IdeaActionID>ChooseDebugConfiguration</IdeaActionID>
           <ShortCut>'Alt+Shift+F9'</ShortCut>
           <Description>Debug...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Declaration">
@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1291</Count>
+          <Count>1292</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1518,7 +1518,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1746</Count>
+          <Count>1747</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
