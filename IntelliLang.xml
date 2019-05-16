@@ -1,5 +1,9 @@
 <application>
   <component name="LanguageInjectionConfiguration">
+    <injection language="RegExp" injector-id="java">
+      <display-name>HeaderAssertions.valueMatches (org.springframework.test.web.reactive.server)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("valueMatches").withParameters("java.lang.String", "java.lang.String").definedInClass("org.springframework.test.web.reactive.server.HeaderAssertions"))]]></place>
+    </injection>
     <injection language="POSTGRES-SQL" injector-id="java">
       <display-name>NamedParameterJdbcOperations.query (org.springframework.jdbc.core.namedparam)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").withParameters("java.lang.String", "org.springframework.jdbc.core.namedparam.SqlParameterSource", "org.springframework.jdbc.core.ResultSetExtractor").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
