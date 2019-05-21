@@ -76,4 +76,10 @@
       <option name="MARKDOWN" value="true" />
     </context>
   </template>
+  <template name="lbimmutable" value="@lombok.Getter&#10;@lombok.Builder&#10;@lombok.AllArgsConstructor(onConstructor = @__(@com.fasterxml.jackson.annotation.JsonCreator))&#10;@lombok.ToString" description="Lombok builder all" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+    </context>
+  </template>
 </templateSet>
