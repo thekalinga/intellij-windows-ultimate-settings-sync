@@ -36,6 +36,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="Diff.FocusOppositePane" />
+  <action id="Docker.RemoteServers.StopContainer">
+    <keyboard-shortcut first-keystroke="shift ctrl f2" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
