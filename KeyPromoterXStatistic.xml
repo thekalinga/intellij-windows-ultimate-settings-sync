@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1672</Count>
+          <Count>1677</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1417,6 +1417,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'UserRepositoryTest.findByUsername'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'UserRepositoryTest.findByUsername'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'VanillaJavaTests.scheduleATaskAtFixedIntervalUsingExecutorService'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1505,6 +1513,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop container">
+        <Item>
+          <IdeaActionID>Docker.RemoteServers.StopContainer</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F2'</ShortCut>
+          <Description>Stop container</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Structure">
         <Item>
           <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
@@ -1518,7 +1534,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1874</Count>
+          <Count>1877</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
