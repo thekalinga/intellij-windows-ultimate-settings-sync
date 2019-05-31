@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1835</Count>
+          <Count>1860</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1214,6 +1214,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'ReactorTests.monoSink_Never_Publishes_DownStream'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'ReactorTests.playground'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ReactorTests.playground'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
