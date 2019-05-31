@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1869</Count>
+          <Count>1872</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -118,7 +118,7 @@
           <IdeaActionID>Vcs.EditSource</IdeaActionID>
           <ShortCut>'F4'</ShortCut>
           <Description>Edit Source</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Edit Templates of Current Language">
