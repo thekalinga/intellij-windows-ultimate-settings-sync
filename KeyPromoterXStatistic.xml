@@ -1225,6 +1225,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'ReactorTests.infiniteStream'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'ReactorTests.infiniteStream'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'ReactorTests.mailParser'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
