@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>2043</Count>
+          <Count>2049</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1393,6 +1393,14 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'SpringPeopleDownloader'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'SpringPeopleDownloader'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'SprinterGotcha'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1598,7 +1606,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>1939</Count>
+          <Count>1945</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
