@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>2236</Count>
+          <Count>2240</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -1070,7 +1070,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'Nio2Application'</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'NlHaftaTest.getTracks'">
@@ -1622,7 +1622,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>2116</Count>
+          <Count>2118</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
