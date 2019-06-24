@@ -102,7 +102,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>2293</Count>
+          <Count>2306</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -222,6 +222,14 @@
           <IdeaActionID>Images.Editor.ToggleGrid</IdeaActionID>
           <ShortCut>'Ctrl+Quote'</ShortCut>
           <Description>Hide Grid</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Jump To Source">
+        <Item>
+          <IdeaActionID>XDebugger.JumpToSource</IdeaActionID>
+          <ShortCut>'F4'</ShortCut>
+          <Description>Jump To Source</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -1638,7 +1646,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>2155</Count>
+          <Count>2156</Count>
         </Item>
       </Statistic>
       <Statistic Action="Type Declaration">
