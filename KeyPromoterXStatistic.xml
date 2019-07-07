@@ -233,6 +233,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Jump to Source">
+        <Item>
+          <IdeaActionID>EditSource</IdeaActionID>
+          <ShortCut>'F4'</ShortCut>
+          <Description>Jump to Source</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Maximize Tool Window">
         <Item>
           <IdeaActionID>MaximizeToolWindow</IdeaActionID>
