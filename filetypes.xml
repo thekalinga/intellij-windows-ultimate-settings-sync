@@ -25,12 +25,12 @@
       <mapping pattern="fab" type="PLAIN_TEXT" />
       <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
       <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile-backup" type="PLAIN_TEXT" />
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
       <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
-      <mapping pattern="hierarchy" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile-backup" type="PLAIN_TEXT" />
       <mapping pattern="logbackxml" type="PLAIN_TEXT" />
+      <mapping pattern="hierarchy" type="PLAIN_TEXT" />
       <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
