@@ -1,6 +1,11 @@
 <application>
   <component name="GraziConfig">
     <option name="enabledSpellcheck" value="true" />
+    <option name="userWords">
+      <set>
+        <option value="candidancy" />
+      </set>
+    </option>
     <option name="lastSeenVersion" value="2019.1-4.stable" />
   </component>
 </application>
