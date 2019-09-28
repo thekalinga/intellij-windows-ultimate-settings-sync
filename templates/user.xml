@@ -42,6 +42,7 @@
   <template name="tag" value="// tag::$name$[]&#10;// end::$name$[]" description="asciidoc tag start &amp; end" toReformat="false" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="name" alwaysStopAt="true" />
     <context>
+      <option name="GROOVY" value="true" />
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
