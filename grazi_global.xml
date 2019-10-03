@@ -6,6 +6,11 @@
         <option value="candidancy" />
       </set>
     </option>
+    <option name="userDisabledRules">
+      <set>
+        <option value="THIS_NNS" />
+      </set>
+    </option>
     <option name="lastSeenVersion" value="2019.1-4.stable" />
   </component>
 </application>
