@@ -10,6 +10,7 @@
     </option>
     <option name="userDisabledRules">
       <set>
+        <option value="PASSIVE_VOICE" />
         <option value="THIS_NNS" />
       </set>
     </option>
