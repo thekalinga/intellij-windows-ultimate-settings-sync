@@ -1,5 +1,5 @@
 <application>
   <component name="NotificationConfiguration">
-    <notification groupId="Log Only" shouldLog="false" />
+    <notification groupId="Test Results: Run" />
   </component>
 </application>
