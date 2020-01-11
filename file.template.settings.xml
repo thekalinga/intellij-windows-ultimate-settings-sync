@@ -1,0 +1,21 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="application.yml" reformat="true" live-template-enabled="true" />
+      <template name="bootstrap.yml" reformat="true" live-template-enabled="true" />
+      <template name="Dockerfile." reformat="true" live-template-enabled="true" />
+      <template name="Dockerfile with filebeat." reformat="true" live-template-enabled="true" />
+      <template name="entrypoint with filebeat.sh" reformat="true" live-template-enabled="true" />
+      <template name="filebeat.yml" reformat="true" live-template-enabled="true" />
+      <template name="Flyway V1.1__PopulateData.sql" reformat="true" live-template-enabled="true" />
+      <template name="Flyway V1__Init.sql" reformat="true" live-template-enabled="true" />
+      <template name="gradle_multi_module_root.gradle" reformat="true" live-template-enabled="true" />
+      <template name="gradle_settings.gradle" reformat="true" live-template-enabled="true" />
+      <template name="gradle_shared_common.gradle" reformat="true" live-template-enabled="true" />
+      <template name="gradle_shared_spring-cloud-contract-stub-generator.gradle" reformat="true" live-template-enabled="true" />
+      <template name="junit-platform.properties" reformat="true" live-template-enabled="true" />
+      <template name="log4j2.xml" reformat="false" live-template-enabled="true" />
+      <template name="log4j2 for tracing.xml" reformat="false" live-template-enabled="true" />
+    </default_templates>
+  </component>
+</application>
