@@ -1,53 +1,52 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="" type="Dockerfile" />
       <mapping ext="har" type="JSON" />
-      <mapping pattern="Dockerfile-alpine-unfinished" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="truncate" type="PLAIN_TEXT" />
-      <mapping pattern="Dockerfile-backup" type="PLAIN_TEXT" />
+      <mapping pattern="string-array" type="PLAIN_TEXT" />
+      <mapping pattern="run_filebeat" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile-alpine-unfinished" type="PLAIN_TEXT" />
+      <mapping pattern="fab" type="PLAIN_TEXT" />
+      <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
       <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
+      <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
+      <mapping pattern="sample" type="PLAIN_TEXT" />
+      <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile-backup" type="PLAIN_TEXT" />
       <mapping pattern="logbackxml" type="PLAIN_TEXT" />
       <mapping pattern="hierarchy" type="PLAIN_TEXT" />
-      <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
-      <mapping pattern="run_filebeat" type="PLAIN_TEXT" />
-      <mapping pattern="fab" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".version" type="PLAIN_TEXT" />
-      <mapping pattern="sample" type="PLAIN_TEXT" />
-      <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
-      <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
-      <mapping pattern="string-array" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
-      <mapping ext="banner" type="PLAIN_TEXT" />
-      <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
-      <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
-      <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="pages" type="PLAIN_TEXT" />
       <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="vsdx" type="PLAIN_TEXT" />
-      <mapping ext="linkgrabber" type="PLAIN_TEXT" />
-      <mapping ext="2" type="PLAIN_TEXT" />
+      <mapping ext="list" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="m3u8" type="PLAIN_TEXT" />
+      <mapping ext="linkgrabber" type="PLAIN_TEXT" />
+      <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="2" type="PLAIN_TEXT" />
+      <mapping ext="banner" type="PLAIN_TEXT" />
       <mapping ext="helloworldgreetingprovider" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <mapping ext="factories" type="Properties" />
+      <mapping ext="ocf" type="XML" />
+      <mapping ext="sif" type="XML" />
       <mapping ext="kdenlive" type="XML" />
       <mapping ext="sdef" type="XML" />
-      <mapping ext="sif" type="XML" />
-      <mapping ext="ocf" type="XML" />
       <mapping ext="drawio" type="XML" />
-      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="tex" approved="true" type="Native" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <mapping ext="" type="Dockerfile" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="latex" type="LaTeX file" />
       <mapping ext="pkb" type="DBN-PSQL" />
