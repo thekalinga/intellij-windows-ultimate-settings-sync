@@ -159,7 +159,7 @@
                 <VFile>
                   <option name="enabled" value="true" />
                   <option name="url" value="https://gist.githubusercontent.com/thekalinga/00971700cab11767f80320b6f90666fb/raw/85c55c91d33c95f9454e9a951b244834eb7c45c2/custom.postfixTemplates" />
-                  <option name="file" value="${PLUGIN}/java/custom.postfixTemplates" />
+                  <option name="file" value="${PLUGIN}/java/custom.postfixTemplates.postfixTemplates" />
                 </VFile>
               </list>
             </value>
@@ -196,10 +196,6 @@
                   <option name="id" value="xylo.stdlib" />
                   <option name="url" value="https://raw.githubusercontent.com/xylo/intellij-postfix-templates/master/templates/python/stdlib.postfixTemplates" />
                   <option name="file" value="${PLUGIN}/python/xylo.stdlib.postfixTemplates" />
-                </VFile>
-                <VFile>
-                  <option name="enabled" value="true" />
-                  <option name="file" value="${PLUGIN}/python/bystrousak.stdlib.postfixTemplates" />
                 </VFile>
               </list>
             </value>
