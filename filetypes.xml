@@ -1,24 +1,25 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="" type="Dockerfile" />
       <mapping ext="har" type="JSON" />
-      <mapping pattern="Dockerfile-alpine-unfinished" type="PLAIN_TEXT" />
-      <mapping pattern="truncate" type="PLAIN_TEXT" />
-      <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
-      <mapping pattern="logbackxml" type="PLAIN_TEXT" />
-      <mapping pattern="run_filebeat" type="PLAIN_TEXT" />
-      <mapping pattern="hierarchy" type="PLAIN_TEXT" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
-      <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
-      <mapping pattern="fab" type="PLAIN_TEXT" />
+      <mapping pattern="hierarchy" type="PLAIN_TEXT" />
+      <mapping pattern="truncate" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
-      <mapping pattern=".version" type="PLAIN_TEXT" />
+      <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-backup" type="PLAIN_TEXT" />
       <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
-      <mapping pattern="string-array" type="PLAIN_TEXT" />
+      <mapping pattern="fab" type="PLAIN_TEXT" />
+      <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
+      <mapping pattern="run_filebeat" type="PLAIN_TEXT" />
+      <mapping pattern="logbackxml" type="PLAIN_TEXT" />
       <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
+      <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
+      <mapping pattern=".version" type="PLAIN_TEXT" />
+      <mapping pattern="string-array" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile-alpine-unfinished" type="PLAIN_TEXT" />
       <mapping ext="banner" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
@@ -47,7 +48,6 @@
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="tex" approved="true" type="Native" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
-      <mapping ext="" type="Dockerfile" />
       <mapping ext="latex" type="LaTeX file" />
     </extensionMap>
   </component>
