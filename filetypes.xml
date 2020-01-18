@@ -22,6 +22,7 @@
       <mapping pattern="Dockerfile-alpine-unfinished" type="PLAIN_TEXT" />
       <mapping ext="banner" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="ai" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
@@ -33,7 +34,6 @@
       <mapping ext="2" type="PLAIN_TEXT" />
       <mapping ext="m3u8" type="PLAIN_TEXT" />
       <mapping ext="types" type="PLAIN_TEXT" />
-      <mapping ext="ai" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="helloworldgreetingprovider" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
