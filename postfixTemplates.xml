@@ -30,6 +30,18 @@
       </conditions>
       <template name="fakeKey" value="log.debug($EXPR$$END$);" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="mockito@userDefined" key=".mockito" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.Class" />
+      </conditions>
+      <template name="fakeKey" value="Mockito.mock($EXPR$);" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="thenReturn@userDefined" key=".thenReturn" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="Mockito.when($EXPR$).thenReturn($END$);" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="at@userDefined" key=".at" provider="builtin.java" language-level="8" topmost="false">
       <conditions>
         <condition id="non void" />
