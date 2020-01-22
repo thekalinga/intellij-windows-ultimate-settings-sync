@@ -1,5 +1,11 @@
 <application>
   <component name="PostfixTemplates">
+    <template id="ati@userDefined" key=".ati" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="assertThat($EXPR$).is" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="at@userDefined" key=".at" provider="builtin.java" language-level="8" topmost="false">
       <conditions>
         <condition id="non void" />
