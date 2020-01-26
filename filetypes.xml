@@ -3,8 +3,7 @@
     <extensionMap>
       <mapping ext="" type="Dockerfile" />
       <mapping ext="har" type="JSON" />
-      <mapping ext="latex" type="LaTeX file" />
-      <removed_mapping ext="tex" approved="true" type="LaTeX file" />
+      <removed_mapping ext="tex" approved="true" type="LaTeX source file" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
       <mapping pattern="hierarchy" type="PLAIN_TEXT" />
       <mapping pattern="truncate" type="PLAIN_TEXT" />
@@ -26,11 +25,11 @@
       <mapping ext="banner" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
-      <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
+      <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
-      <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="linkgrabber" type="PLAIN_TEXT" />
+      <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
       <mapping ext="pages" type="PLAIN_TEXT" />
       <mapping ext="vsdx" type="PLAIN_TEXT" />
@@ -52,6 +51,7 @@
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="tex" approved="true" type="Native" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="latex" type="LaTeX file" />
     </extensionMap>
   </component>
 </application>
