@@ -4,55 +4,55 @@
       <conditions>
         <condition id="non void" />
       </conditions>
-      <template name="fakeKey" value="assertThat($EXPR$).is" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="w@userDefined" key=".w" provider="builtin.java" language-level="8" topmost="false">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="log.warn($EXPR$$END$);" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="e@userDefined" key=".e" provider="builtin.java" language-level="8" topmost="false">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="log.error($EXPR$$END$);" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="i@userDefined" key=".i" provider="builtin.java" language-level="8" topmost="false">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="log.info($EXPR$$END$);" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="d@userDefined" key=".d" provider="builtin.java" language-level="8" topmost="false">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="log.debug($EXPR$$END$);" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="mockito@userDefined" key=".mockito" provider="builtin.java" language-level="8" topmost="false">
-      <conditions>
-        <condition id="fqn" fqn="java.lang.Class" />
-      </conditions>
-      <template name="fakeKey" value="Mockito.mock($EXPR$);" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="thenReturn@userDefined" key=".thenReturn" provider="builtin.java" language-level="8" topmost="false">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="Mockito.when($EXPR$).thenReturn($END$);" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="assertThat($EXPR$).is" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="at@userDefined" key=".at" provider="builtin.java" language-level="8" topmost="false">
       <conditions>
         <condition id="non void" />
       </conditions>
-      <template name="fakeKey" value="assertThat($EXPR$)." toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="assertThat($EXPR$)." description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="w@userDefined" key=".w" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="log.warn($EXPR$$END$);" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="e@userDefined" key=".e" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="log.error($EXPR$$END$);" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="i@userDefined" key=".i" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="log.info($EXPR$$END$);" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="mockito@userDefined" key=".mockito" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="java.lang.Class" />
+      </conditions>
+      <template name="fakeKey" value="Mockito.mock($EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="thenReturn@userDefined" key=".thenReturn" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="Mockito.when($EXPR$).thenReturn($END$);" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="d@userDefined" key=".d" provider="builtin.java" language-level="8" topmost="false">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="log.debug($EXPR$$END$);" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="e@userDefined2" key=".e" provider="builtin.java" language-level="8" topmost="false">
       <conditions>
         <condition id="fqn" fqn="java.lang.Throwable" />
       </conditions>
-      <template name="fakeKey" value="log.error(&quot;$END$&quot;, $EXPR$);" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="log.error(&quot;$END$&quot;, $EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
   <component name="PostfixTemplatesSettings">
@@ -61,6 +61,14 @@
         <value>
           <set>
             <option value="assert" />
+            <option value="at@userDefined" />
+          </set>
+        </value>
+      </disabled-templates>
+      <disabled-templates provider="de.endrullis.idea.postfixtemplates.languages.java.JavaPostfixTemplateProvider">
+        <value>
+          <set>
+            <option value="de.endrullis.idea.postfixtemplates.templates.CombinedPostfixTemplate#assertThat" />
           </set>
         </value>
       </disabled-templates>
