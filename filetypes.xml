@@ -26,8 +26,8 @@
       <mapping ext="banner" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
-      <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
       <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="linkgrabber" type="PLAIN_TEXT" />
