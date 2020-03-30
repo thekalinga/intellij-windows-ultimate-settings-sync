@@ -164,12 +164,8 @@
                 </VFile>
                 <VFile>
                   <option name="enabled" value="true" />
-                  <option name="url" value="https://gist.githubusercontent.com/thekalinga/00971700cab11767f80320b6f90666fb/raw/933b2fd17b3c3968d88194b32ee137c7e649f730/custom.postfixTemplates" />
+                  <option name="url" value="https://gist.githubusercontent.com/thekalinga/00971700cab11767f80320b6f90666fb/raw/3fcbd14c740479aac219752d568d67bd928d59f7/custom.postfixTemplates" />
                   <option name="file" value="${PLUGIN}/java/custom.postfixTemplates.postfixTemplates" />
-                </VFile>
-                <VFile>
-                  <option name="enabled" value="true" />
-                  <option name="file" value="${PLUGIN}/java/custom.postfixTemplate.postfixTemplates" />
                 </VFile>
               </list>
             </value>
