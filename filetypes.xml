@@ -33,6 +33,7 @@
       <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="linkgrabber" type="PLAIN_TEXT" />
       <mapping ext="list" type="PLAIN_TEXT" />
+      <mapping ext="orig" type="PLAIN_TEXT" />
       <mapping ext="curl" type="PLAIN_TEXT" />
       <mapping ext="pages" type="PLAIN_TEXT" />
       <mapping ext="vsdx" type="PLAIN_TEXT" />
