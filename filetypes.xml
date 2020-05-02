@@ -27,6 +27,7 @@
       <mapping ext="tex" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
+      <mapping ext="tab" type="PLAIN_TEXT" />
       <mapping ext="orig" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="vsdx" type="PLAIN_TEXT" />
