@@ -6,6 +6,7 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="latex" type="LaTeX file" />
       <removed_mapping ext="tex" approved="true" type="LaTeX source file" />
+      <mapping ext="mp3" type="Native" />
       <mapping pattern="sample" type="PLAIN_TEXT" />
       <mapping pattern="hierarchy" type="PLAIN_TEXT" />
       <mapping pattern="truncate" type="PLAIN_TEXT" />
