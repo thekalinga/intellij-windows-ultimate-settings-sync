@@ -26,6 +26,7 @@
       <mapping pattern="Dockerfile-alpine-unfinished" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="tex" type="PLAIN_TEXT" />
+      <mapping ext="formatted" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
       <mapping ext="tab" type="PLAIN_TEXT" />
