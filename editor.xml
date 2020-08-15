@@ -1,4 +1,7 @@
 <application>
+  <component name="CodeInsightSettings">
+    <EXCLUDED_PACKAGE NAME="java.applet.*" />
+  </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="20" />
     <option name="FONT_FAMILY" value="Fira Code Light" />
@@ -13,6 +16,9 @@
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
   <component name="SqlEditorOptions">
     <option name="concatenateStringsOnEnter" value="true" />
