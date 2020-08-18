@@ -1,6 +1,7 @@
 <application>
   <component name="CodeInsightSettings">
     <EXCLUDED_PACKAGE NAME="java.applet.*" />
+    <EXCLUDED_PACKAGE NAME="java.awt.*" />
   </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="20" />
