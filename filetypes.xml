@@ -1,7 +1,6 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="" type="Dockerfile" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="latex" type="LaTeX file" />
@@ -11,8 +10,8 @@
       <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
       <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
       <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
-      <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="logbackxml" type="PLAIN_TEXT" />
+      <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="truncate" type="PLAIN_TEXT" />
       <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
       <mapping pattern="string-array" type="PLAIN_TEXT" />
