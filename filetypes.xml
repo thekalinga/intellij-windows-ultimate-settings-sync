@@ -48,7 +48,6 @@
       <mapping ext="helloworldgreetingprovider" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <mapping ext="factories" type="Properties" />
       <mapping ext="kdenlive" type="XML" />
       <mapping ext="sdef" type="XML" />
