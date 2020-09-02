@@ -4,13 +4,14 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="latex" type="LaTeX file" />
+      <removed_mapping ext="tex" approved="true" type="LaTeX source file" />
       <mapping ext="mp3" type="Native" />
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
       <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
       <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
       <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
-      <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="logbackxml" type="PLAIN_TEXT" />
+      <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="truncate" type="PLAIN_TEXT" />
       <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
       <mapping pattern="string-array" type="PLAIN_TEXT" />
