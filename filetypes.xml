@@ -9,8 +9,8 @@
       <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
       <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
       <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
-      <mapping pattern="logbackxml" type="PLAIN_TEXT" />
       <mapping pattern=".version" type="PLAIN_TEXT" />
+      <mapping pattern="logbackxml" type="PLAIN_TEXT" />
       <mapping pattern="truncate" type="PLAIN_TEXT" />
       <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
       <mapping pattern="string-array" type="PLAIN_TEXT" />
@@ -51,6 +51,7 @@
       <mapping ext="factories" type="Properties" />
       <mapping ext="kdenlive" type="XML" />
       <mapping ext="sdef" type="XML" />
+      <mapping ext="xmlx" type="XML" />
       <mapping ext="drawio" type="XML" />
       <mapping ext="ncx" type="XML" />
       <mapping ext="ocf" type="XML" />
