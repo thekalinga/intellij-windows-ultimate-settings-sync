@@ -14,7 +14,7 @@
     <mask>*.gradle</mask>
     <mask>*.groovy</mask>
     <mask>*.md</mask>
-    <mask>*.java</mask>
     <mask>*.xml</mask>
+    <mask>*.java</mask>
   </component>
 </application>
