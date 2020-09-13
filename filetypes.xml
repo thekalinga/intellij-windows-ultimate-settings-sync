@@ -33,6 +33,7 @@
       <mapping ext="2" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="help" type="PLAIN_TEXT" />
+      <mapping ext="latex" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
