@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="latex" type="LaTeX file" />
       <removed_mapping ext="tex" approved="true" type="LaTeX source file" />
       <mapping ext="mp3" type="Native" />
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
@@ -63,6 +62,7 @@
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="tex" approved="true" type="Native" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="latex" type="LaTeX file" />
     </extensionMap>
   </component>
 </application>
