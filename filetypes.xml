@@ -7,8 +7,8 @@
       <mapping pattern="EMPTY_FILE" type="PLAIN_TEXT" />
       <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
       <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
-      <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
+      <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="string-array" type="PLAIN_TEXT" />
       <mapping pattern="fab" type="PLAIN_TEXT" />
       <mapping pattern="run_filebeat" type="PLAIN_TEXT" />
