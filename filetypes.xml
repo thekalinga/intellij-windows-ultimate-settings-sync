@@ -10,6 +10,7 @@
       <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
       <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="string-array" type="PLAIN_TEXT" />
+      <mapping pattern="structure" type="PLAIN_TEXT" />
       <mapping pattern="fab" type="PLAIN_TEXT" />
       <mapping pattern="run_filebeat" type="PLAIN_TEXT" />
       <mapping pattern="Dockerfile-backup" type="PLAIN_TEXT" />
