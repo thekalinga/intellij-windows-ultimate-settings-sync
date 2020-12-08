@@ -11,5 +11,6 @@
     <entry key="BSP.system.in.process" value="true" />
     <entry key="git.explicit.commit.renames.prohibit.multiple.calls" value="false" />
     <entry key="ide.images.show.chessboard" value="true" />
+    <entry key="editor.distraction.free.mode" value="true" />
   </component>
 </application>
