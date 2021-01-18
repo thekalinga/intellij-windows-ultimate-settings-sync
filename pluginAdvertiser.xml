@@ -1292,6 +1292,11 @@
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" />
                     </value>
                   </entry>
+                  <entry key="EXTERNAL_TOOL_RUN_CONFIGURATION">
+                    <value>
+                      <FeaturePluginData displayName="External LaTeX Tool" pluginName="TeXiFy IDEA" pluginId="nl.rubensten.texifyidea" />
+                    </value>
+                  </entry>
                   <entry key="GradleRunConfiguration">
                     <value>
                       <FeaturePluginData displayName="Gradle" pluginName="Gradle" pluginId="com.intellij.gradle" />
