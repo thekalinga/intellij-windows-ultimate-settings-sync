@@ -218,6 +218,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.dtx">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="nl.rubensten.texifyidea" />
+              <option name="myPluginName" value="TeXiFy IDEA" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.ear">
           <value>
             <plugin>
