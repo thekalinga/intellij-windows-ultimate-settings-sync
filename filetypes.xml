@@ -31,7 +31,6 @@
       <mapping ext="m3u8" type="PLAIN_TEXT" />
       <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="vsdx" type="PLAIN_TEXT" />
-      <mapping ext="pdf" type="PLAIN_TEXT" />
       <mapping ext="curl" type="PLAIN_TEXT" />
       <mapping ext="2" type="PLAIN_TEXT" />
       <mapping ext="crt" type="PLAIN_TEXT" />
