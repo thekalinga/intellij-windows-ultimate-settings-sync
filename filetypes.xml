@@ -60,7 +60,6 @@
       <removed_mapping ext="csv" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="tab" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="tex" approved="true" type="PLAIN_TEXT" />
       <mapping ext="latex" type="LaTeX file" />
     </extensionMap>
   </component>
