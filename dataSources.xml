@@ -1,12 +1,11 @@
 <application>
-  <component name="dataSourceStorage" format="xml">
+  <component name="dataSourceStorage" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="H2 - Frieght Bazar" read-only="true" uuid="2f38f185-974a-4d2a-802c-3e8837a1887b">
-      <driver-ref>h2.embedded</driver-ref>
+      <driver-ref>h2.unified</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>org.h2.Driver</jdbc-driver>
       <jdbc-url>jdbc:h2:file:/tmp/.frieghtbazaar/db;MVCC=TRUE;MV_STORE=TRUE;DB_CLOSE_ON_EXIT=FALSE;AUTO_SERVER=TRUE</jdbc-url>
-      <libraries />
     </data-source>
   </component>
 </application>

@@ -3,13 +3,6 @@
     <EXCLUDED_PACKAGE NAME="java.applet.*" />
     <EXCLUDED_PACKAGE NAME="java.awt.*" />
   </component>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="30" />
-    <option name="FONT_FAMILY" value="Crimson Pro" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="ExtraLight" />
-    <option name="FONT_BOLD_SUB_FAMILY" value="SemiBold" />
-    <option name="USE_LIGATURES" value="true" />
-  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
@@ -23,8 +16,8 @@
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
   </component>
-  <component name="SqlEditorOptions">
-    <option name="concatenateStringsOnEnter" value="true" />
-    <option name="qualificationType" value="On collisions" />
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
   </component>
 </application>
