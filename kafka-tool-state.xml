@@ -1,0 +1,6 @@
+<application>
+  <component name="KafkaToolPersistentStateComponent">
+    <option name="avroPackagePrefix" value="" />
+    <option name="schemaRegistryUrl" value="" />
+  </component>
+</application>

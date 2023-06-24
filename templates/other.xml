@@ -1,0 +1,85 @@
+<templateSet group="other">
+  <template name="fof" value="//@formatter:off" description="Fromatter off" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="fon" value="//@formatter:on" description="Formatter on" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lball" value="@lombok.Getter&#10;@lombok.Setter&#10;@lombok.Builder&#10;@lombok.NoArgsConstructor&#10;@lombok.AllArgsConstructor" description="Lombok builder all" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="ld" value="log.debug(&quot;$MSG$&quot;$ARGS$);$END$" description="Log at debug level" toReformat="false" toShortenFQNames="true">
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="lw" value="log.warn(&quot;$MSG$&quot;$ARGS$);$END$" description="Log at warn level" toReformat="false" toShortenFQNames="true">
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="le" value="log.error(&quot;$MSG$&quot;$ARGS$);$END$" description="Log at error level" toReformat="false" toShortenFQNames="true">
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="`" value="```$LANG$&#10;$END$&#10;```" description="code template in markdown" toReformat="true" toShortenFQNames="true">
+    <variable name="LANG" expression="" defaultValue="&quot;java&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="AsciiDoc" value="true" />
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
+  <template name="=3" value="=== $END$" description="Heading 3 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="=4" value="==== $END$" description="Heading 4 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="=5" value="===== $END$" description="Heading 5 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="=6" value="====== $END$" description="Heading 6 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="=7" value="======= $END$" description="Heading 7 level deep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+    </context>
+  </template>
+  <template name="`p" value="```properties&#10;$END$&#10;```" description="properties code template in markdown" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="AsciiDoc" value="true" />
+      <option name="MARKDOWN" value="true" />
+    </context>
+  </template>
+  <template name="lbimmutable" value="@lombok.Getter&#10;@lombok.Builder&#10;@lombok.AllArgsConstructor(onConstructor = @__(@com.fasterxml.jackson.annotation.JsonCreator))&#10;@lombok.ToString" description="Lombok builder all" toReformat="false" toShortenFQNames="true" useStaticImport="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+    </context>
+  </template>
+</templateSet>

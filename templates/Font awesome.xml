@@ -1,0 +1,20 @@
+<templateSet group="Font awesome">
+  <template name="fa-google-plus" value="&lt;i class=&quot;fa fa-google-plus$1$&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;$END$" description="" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GSP" value="true" />
+      <option name="JSP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fa-google-plus-official" value="&lt;i class=&quot;fa fa-google-plus-official$1$&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;$END$" description="" toReformat="false" toShortenFQNames="false">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GSP" value="true" />
+      <option name="JSP" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

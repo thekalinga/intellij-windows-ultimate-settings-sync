@@ -1,0 +1,6 @@
+<templateSet group="SQL (DBN)">
+  <template name="sel" value="select $COLUMN$ from $TABLE$ where $END$;" description="Select from dataset" toReformat="true" toShortenFQNames="false">
+    <variable name="TABLE" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="COLUMN" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>

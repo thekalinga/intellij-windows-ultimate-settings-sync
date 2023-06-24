@@ -1,0 +1,28 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="RegExp" injector-id="java">
+      <display-name>HeaderAssertions.valueMatches (org.springframework.test.web.reactive.server)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(1, psiMethod().withName("valueMatches").withParameters("java.lang.String", "java.lang.String").definedInClass("org.springframework.test.web.reactive.server.HeaderAssertions"))]]></place>
+    </injection>
+    <injection language="POSTGRES-SQL" injector-id="java">
+      <display-name>NamedParameterJdbcOperations.query (org.springframework.jdbc.core.namedparam)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("query").withParameters("java.lang.String", "org.springframework.jdbc.core.namedparam.SqlParameterSource", "org.springframework.jdbc.core.ResultSetExtractor").definedInClass("org.springframework.jdbc.core.namedparam.NamedParameterJdbcOperations"))]]></place>
+    </injection>
+    <injection language="POSTGRES-SQL" injector-id="java">
+      <display-name>SqlSpec.sql (org.springframework.data.r2dbc.core.DatabaseClient)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("sql").withParameters("java.lang.String").definedInClass("org.springframework.data.r2dbc.core.DatabaseClient.SqlSpec"))]]></place>
+    </injection>
+    <injection language="POSTGRES-SQL" injector-id="java">
+      <display-name>SqlSpec.sql (org.springframework.data.r2dbc.function.DatabaseClient)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("sql").withParameters("java.lang.String").definedInClass("org.springframework.data.r2dbc.function.DatabaseClient.SqlSpec"))]]></place>
+    </injection>
+    <injection language="HTML" injector-id="java">
+      <display-name>StringBuilder.append (java.lang)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("append").withParameters("java.lang.String").definedInClass("java.lang.StringBuilder"))]]></place>
+    </injection>
+    <injection language="RegExp" injector-id="xml">
+      <display-name>entry/@out</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("out")).withParent(xmlTag().withLocalName(string().equalTo("entry")))]]></place>
+    </injection>
+  </component>
+</application>
