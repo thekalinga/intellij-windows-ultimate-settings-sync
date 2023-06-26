@@ -11,6 +11,12 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="ConsoleView.ClearAll">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
+  <action id="Debugger.MuteRenderers">
+    <keyboard-shortcut first-keystroke="shift ctrl alt m" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -41,5 +47,11 @@
   </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="shift ctrl alt m" />
+  </action>
+  <action id="org.jetbrains.plugins.notebooks.visualization.r.inlays.components.ClearOutputAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
 </keymap>
