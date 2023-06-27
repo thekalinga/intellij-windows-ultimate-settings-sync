@@ -42,6 +42,12 @@
   <action id="Maven.ReimportProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt m" />
   </action>
+  <action id="Profiler.RevealSnapshotAction">
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
   </action>
