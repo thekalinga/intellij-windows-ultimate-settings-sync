@@ -22,9 +22,6 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
-  <action id="Debugger.MuteRenderers">
-    <keyboard-shortcut first-keystroke="shift ctrl alt m" />
-  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -40,6 +37,7 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl comma" />
   </action>
+  <action id="ExtractFunctionToScope" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
