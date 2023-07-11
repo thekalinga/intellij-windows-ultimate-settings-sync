@@ -82,4 +82,7 @@
     </option>
     <option name="SHOW_CHANGES_FROM_PARENTS" value="true" />
   </component>
+  <component name="VcsApplicationSettings">
+    <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
+  </component>
 </application>
