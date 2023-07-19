@@ -18,5 +18,6 @@
     <mask>*.xml</mask>
     <mask>*.svg</mask>
     <mask>*.java</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
