@@ -22,6 +22,9 @@
   <action id="ConsoleView.ClearAll">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
@@ -43,6 +46,9 @@
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
   </action>
+  <action id="Gradle.RefreshDependencies">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
   <action id="GraphDatabaseActionGroup.ExecuteQuery">
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
@@ -54,6 +60,7 @@
   <action id="Maven.ReimportProject">
     <keyboard-shortcut first-keystroke="shift ctrl alt m" />
   </action>
+  <action id="PlantUML.Reload" />
   <action id="Profiler.RevealSnapshotAction">
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
