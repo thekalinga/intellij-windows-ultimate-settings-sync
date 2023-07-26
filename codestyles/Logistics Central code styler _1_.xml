@@ -1,14 +1,9 @@
-<code_scheme name="Logistics Central code styler (1)">
+<code_scheme name="Logistics Central code styler (1)" version="173">
   <option name="OTHER_INDENT_OPTIONS">
     <value>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="8" />
-      <option name="USE_TAB_CHARACTER" value="false" />
-      <option name="SMART_TABS" value="false" />
-      <option name="LABEL_INDENT_SIZE" value="0" />
-      <option name="LABEL_INDENT_ABSOLUTE" value="false" />
-      <option name="USE_RELATIVE_INDENTS" value="false" />
     </value>
   </option>
   <option name="LINE_SEPARATOR" value="&#10;" />
@@ -16,10 +11,6 @@
   <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
   <option name="RIGHT_MARGIN" value="100" />
   <option name="FORMATTER_TAGS_ENABLED" value="true" />
-  <JavaCodeStyleSettings>
-    <option name="ANNOTATION_PARAMETER_WRAP" value="2" />
-    <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
-  </JavaCodeStyleSettings>
   <DBN-PSQL>
     <case-options enabled="false">
       <option name="KEYWORD_CASE" value="lower" />
@@ -44,12 +35,51 @@
       <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
     </formatting-settings>
   </DBN-SQL>
-  <SqlCodeStyleSettings>
+  <JavaCodeStyleSettings>
+    <option name="ANNOTATION_PARAMETER_WRAP" value="2" />
+    <option name="ALIGN_MULTILINE_ANNOTATION_PARAMETERS" value="true" />
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
+  </JavaCodeStyleSettings>
+  <SqlCodeStyleSettings version="6">
     <option name="DISABLE_FORMATTING" value="true" />
+    <option name="TYPE_CASE" value="3" />
+    <option name="CUSTOM_TYPE_CASE" value="3" />
+    <option name="ALIAS_CASE" value="4" />
+    <option name="BUILT_IN_CASE" value="0" />
+    <option name="QUERY_TRUE_INDENT" value="false" />
+    <option name="QUERY_ALIGN_ELEMENTS" value="false" />
+    <option name="QUERY_ALIGN_LINE_COMMENTS" value="false" />
+    <option name="INSERT_EL_COMMA" value="2" />
+    <option name="SET_EL_WRAP" value="0" />
+    <option name="SET_EL_COMMA" value="0" />
+    <option name="WITH_EL_WRAP" value="0" />
+    <option name="WITH_EL_COMMA" value="0" />
+    <option name="SELECT_EL_WRAP" value="3" />
+    <option name="SELECT_EL_COMMA" value="2" />
+    <option name="FROM_EL_WRAP" value="2" />
+    <option name="FROM_EL_COMMA" value="2" />
+    <option name="FROM_PLACE_ON" value="10" />
+    <option name="WHERE_EL_WRAP" value="3" />
+    <option name="WHERE_EL_BOUND" value="2" />
+    <option name="ORDER_EL_COMMA" value="2" />
+    <option name="TABLE_OPENING" value="1" />
+    <option name="TABLE_CONTENT" value="2" />
+    <option name="TABLE_CLOSING" value="3" />
+    <option name="TABLE_ALTER_INSTRUCTION_INDENT" value="false" />
+    <option name="TABLE_ALTER_INSTRUCTION_ALIGN" value="false" />
+    <option name="TABLE_ALTER_ITEM_ALIGN" value="false" />
+    <option name="POST_OPT_WRAP_1" value="true" />
+    <option name="POST_OPT_ALIGN" value="false" />
+    <option name="ROUTINE_ARG_COMMA" value="2" />
+    <option name="ROUTINE_ARG_ALIGN_TYPES" value="true" />
+    <option name="IMP_DECLARE_EL_WRAP" value="1" />
+    <option name="IMP_IF_THEN_WRAP_THEN" value="true" />
+    <option name="CORTEGE_SPACE_BEFORE_L_PAREN" value="false" />
+    <option name="EXPR_CASE_WHEN_WRAP" value="false" />
+    <option name="EXPR_CASE_THEN_WRAP" value="true" />
+    <option name="PRIMARY_KEY_NAME_TEMPLATE" value="{table}_{columns}_pk" />
   </SqlCodeStyleSettings>
-  <XML>
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
-  </XML>
   <editorconfig>
     <option name="ENABLED" value="false" />
   </editorconfig>
