@@ -1,48 +1,28 @@
 <application>
-  <component name="LocalDatabaseDriverManager" version="163">
-    <driver id="h2.unified" name="H2" dialect="H2">
-      <artifact name="H2" use="true" />
-      <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="db2" name="DB2 (LUW)" />
+    <driver id="db2.jtopen" name="DB2 (JTOpen)" />
+    <driver id="derby.embedded" name="Derby (Embedded)" />
+    <driver id="derby.remote" name="Derby (Remote)" />
+    <driver id="h2.unified">
       <library>
         <url>file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.188/a955e0f5598a7bc9df5c7b5c3ab31ffd350a035e/h2-1.4.188.jar</url>
       </library>
     </driver>
-    <driver id="oracle" name="Oracle" dialect="Oracle">
-      <artifact name="Oracle" use="true" />
-      <option name="auto-sync" value="false" />
-      <option name="auto-commit" value="false" />
-    </driver>
-    <driver id="derby.embedded" name="Derby (Embedded)" dialect="Derby">
-      <artifact name="Apache Derby" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="sybase.jtds" name="Sybase (jTds)" dialect="Sybase">
-      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
+    <driver id="sqlserver.ms" name="SQL Server (Microsoft)">
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
-      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
+    <driver id="sqlserver.jtds" name="SQL Server (jTds)">
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
-      <artifact name="HSQLDB" use="true" />
-      <option name="auto-sync" value="true" />
+    <driver id="mysql" name="MySQL">
+      <property name="autoReconnect" value="true" />
     </driver>
-    <driver id="derby.remote" name="Derby (Remote)" dialect="Derby">
-      <artifact name="Apache Derby" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
-      <artifact name="Xerial SQLiteJDBC" use="true" version="3.8.11.2" />
-      <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
-    </driver>
-    <driver id="sybase.ase" name="Sybase (Native)" dialect="Sybase">
+    <driver id="oracle" name="Oracle">
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
-      <artifact name="PostgreSQL" use="true">
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true">
         <library>
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
@@ -50,35 +30,15 @@
           <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
         </library>
       </artifact>
-      <option name="auto-sync" value="true" />
     </driver>
-    <driver id="db2" name="DB2 (LUW)" dialect="DB2">
-      <artifact name="DB2" use="true" />
-      <option name="auto-sync" value="false" />
-      <property name="retrieveMessagesFromServerOnGetMessage" value="true" />
+    <driver id="sqlite.xerial" name="Sqlite (Xerial)">
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.40.1" />
     </driver>
-    <driver id="sqlserver.ms" name="SQL Server (Microsoft)" dialect="TSQL">
-      <artifact name="SQL Server" use="true" />
+    <driver id="sybase.jtds">
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
-      <artifact name="JTOpen (DB2 iSeries)" use="true" />
+    <driver id="sybase.ase" name="Sybase (Native)">
       <option name="auto-sync" value="false" />
-      <property name="prompt" value="false" />
-    </driver>
-    <driver id="mysql" name="MySQL" dialect="MySQL">
-      <artifact name="MySQL Connector/J" use="true" />
-      <option name="auto-sync" value="true" />
-      <property name="autoReconnect" value="true" />
-      <property name="zeroDateTimeBehavior" value="convertToNull" />
-      <property name="tinyInt1isBit" value="false" />
-      <property name="characterEncoding" value="utf8" />
-      <property name="characterSetResults" value="utf8" />
-      <property name="yearIsDateType" value="false" />
-    </driver>
-    <driver id="hsqldb.remote" name="HSQLDB (Remote)" dialect="HSQLDB">
-      <artifact name="HSQLDB" use="true" />
-      <option name="auto-sync" value="true" />
     </driver>
   </component>
 </application>
