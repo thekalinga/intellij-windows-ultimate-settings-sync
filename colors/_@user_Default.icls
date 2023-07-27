@@ -1,14 +1,16 @@
 <scheme name="_@user_Default" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.25" />
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2017-05-09T18:37:58</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.1.2.0.0</property>
-    <property name="modified">2017-05-09T19:11:10</property>
+    <property name="modified">2023-07-27T13:12:37</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
-  <option name="EDITOR_FONT_SIZE" value="15" />
+  <option name="LINE_SPACING" value="1.2" />
+  <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
+  <option name="EDITOR_LIGATURES" value="true" />
   <attributes>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_ABBREVIATED_TEXT">
       <value>
