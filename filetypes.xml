@@ -16,6 +16,7 @@
       <mapping pattern="Dockerfile-alpine-unfinished" type="PLAIN_TEXT" />
       <mapping pattern="hierarchy" type="PLAIN_TEXT" />
       <mapping pattern="istent_audit_event_data" type="PLAIN_TEXT" />
+      <mapping pattern=".springjavaformatconfig" type="PLAIN_TEXT" />
       <mapping pattern="OutlineForRecording" type="PLAIN_TEXT" />
       <mapping pattern=".vscodeignore" type="PLAIN_TEXT" />
       <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
