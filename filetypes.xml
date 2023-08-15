@@ -26,6 +26,7 @@
       <mapping pattern="structure" type="PLAIN_TEXT" />
       <mapping pattern="string-array" type="PLAIN_TEXT" />
       <mapping ext="curl" type="PLAIN_TEXT" />
+      <mapping ext="fig" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="vsdx" type="PLAIN_TEXT" />
       <mapping ext="ai" type="PLAIN_TEXT" />
