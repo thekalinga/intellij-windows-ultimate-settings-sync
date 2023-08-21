@@ -3,9 +3,6 @@
     <EXCLUDED_PACKAGE NAME="java.applet.*" />
     <EXCLUDED_PACKAGE NAME="java.awt.*" />
   </component>
-  <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="0" />
-  </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR" />
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
