@@ -1,13 +1,13 @@
 <application>
   <component name="libraryTable">
-    <library name="Python 3.10 (system-architecture-diagrams) interpreter library">
+    <library name="Python 3.10 (deployment-architecture-diagrams) interpreter library">
       <CLASSES>
         <root url="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/DLLs" />
         <root url="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib" />
         <root url="file://$USER_HOME$/AppData/Local/Programs/Python/Python310" />
-        <root url="file://$APPLICATION_CONFIG_DIR$/system-architecture-diagrams/venv" />
-        <root url="file://$APPLICATION_CONFIG_DIR$/system-architecture-diagrams/venv/Lib/site-packages" />
-        <root url="file://$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.2/python_stubs/-684754423" />
+        <root url="file://$USER_HOME$/dev/ws2/infrastructure/deployment-architecture-diagrams/venv" />
+        <root url="file://$USER_HOME$/dev/ws2/infrastructure/deployment-architecture-diagrams/venv/Lib/site-packages" />
+        <root url="file://$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.2/python_stubs/-1434981267" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/gdb" />
@@ -144,9 +144,9 @@
         <root url="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/DLLs" />
         <root url="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib" />
         <root url="file://$USER_HOME$/AppData/Local/Programs/Python/Python310" />
-        <root url="file://$APPLICATION_CONFIG_DIR$/system-architecture-diagrams/venv" />
-        <root url="file://$APPLICATION_CONFIG_DIR$/system-architecture-diagrams/venv/Lib/site-packages" />
-        <root url="file://$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.2/python_stubs/-684754423" />
+        <root url="file://$USER_HOME$/dev/ws2/infrastructure/deployment-architecture-diagrams/venv" />
+        <root url="file://$USER_HOME$/dev/ws2/infrastructure/deployment-architecture-diagrams/venv/Lib/site-packages" />
+        <root url="file://$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.2/python_stubs/-1434981267" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/python-skeletons" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stdlib" />
         <root url="file://$APPLICATION_PLUGINS_DIR$/python/helpers/typeshed/stubs/gdb" />
