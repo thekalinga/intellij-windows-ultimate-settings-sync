@@ -48,7 +48,6 @@
       <mapping ext="crt" type="PLAIN_TEXT" />
       <mapping ext="banner" type="PLAIN_TEXT" />
       <mapping ext="response" type="PLAIN_TEXT" />
-      <mapping ext="plantuml" type="PlantUML file" />
       <mapping ext="factories" type="Properties" />
       <mapping ext="kdenlive" type="XML" />
       <mapping ext="drawio" type="XML" />
@@ -67,6 +66,7 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tab" approved="true" type="PLAIN_TEXT" />
       <mapping ext="latex" type="LaTeX file" />
+      <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
 </application>
