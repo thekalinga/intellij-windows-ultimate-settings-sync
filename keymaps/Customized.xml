@@ -93,6 +93,9 @@
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
+  <action id="Maven.Reimport">
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
   <action id="NextTab" />
   <action id="PreviousTab" />
   <action id="RevealIn">
