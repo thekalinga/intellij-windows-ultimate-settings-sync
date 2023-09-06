@@ -22,14 +22,7 @@
       <option name="auto-sync" value="false" />
     </driver>
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true">
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-driver-license.txt</url>
-        </library>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/postgresql-9.4-1201.jdbc4.jar</url>
-        </library>
-      </artifact>
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.6.0" />
     </driver>
     <driver id="sqlite.xerial" name="Sqlite (Xerial)">
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.40.1" />
