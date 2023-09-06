@@ -50,6 +50,7 @@
       <mapping ext="banner" type="PLAIN_TEXT" />
       <mapping ext="response" type="PLAIN_TEXT" />
       <mapping ext="factories" type="Properties" />
+      <mapping ext="psql" type="SQL" />
       <mapping ext="kdenlive" type="XML" />
       <mapping ext="drawio" type="XML" />
       <mapping ext="sdef" type="XML" />
