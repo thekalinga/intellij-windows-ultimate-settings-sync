@@ -54,6 +54,7 @@
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="shift back_quote" />
   </action>
@@ -89,6 +90,9 @@
   <action id="FullyExpandTreeNode">
     <keyboard-shortcut first-keystroke="ctrl alt equals" />
     <keyboard-shortcut first-keystroke="ctrl alt add" />
+  </action>
+  <action id="GraphDatabaseConsoleToolWindowActions.ExecuteQuery">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="Hotswap">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
