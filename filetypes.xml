@@ -41,6 +41,7 @@
       <mapping ext="types" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
       <mapping ext="grrovy" type="PLAIN_TEXT" />
+      <mapping ext="tmp" type="PLAIN_TEXT" />
       <mapping ext="vba" type="PLAIN_TEXT" />
       <mapping ext="formatted" type="PLAIN_TEXT" />
       <mapping ext="help" type="PLAIN_TEXT" />
