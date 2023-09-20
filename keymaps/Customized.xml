@@ -45,6 +45,9 @@
   <action id="Docker.RemoteServers.StopContainer">
     <keyboard-shortcut first-keystroke="shift ctrl f2" />
   </action>
+  <action id="EditBookmark">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
