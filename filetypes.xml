@@ -6,6 +6,7 @@
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="mp3" type="Native" />
+      <mapping ext="pdf" type="Native" />
       <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="logbackxml" type="PLAIN_TEXT" />
       <mapping pattern="fab" type="PLAIN_TEXT" />
@@ -66,7 +67,6 @@
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cql" approved="true" type="CassandraQL" />
       <removed_mapping ext="csv" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tab" approved="true" type="PLAIN_TEXT" />
       <mapping ext="latex" type="LaTeX file" />
