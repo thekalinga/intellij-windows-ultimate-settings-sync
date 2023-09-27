@@ -150,6 +150,9 @@
   <action id="asciidoc.makebold">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="asciidoc.makeitalic">
+    <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
   <action id="com.karateca.jstoolbox.tobrowser.ToBrowserAction" />
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction">
     <keyboard-shortcut first-keystroke="ctrl b" />
