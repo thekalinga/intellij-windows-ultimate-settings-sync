@@ -3,6 +3,7 @@
     <explicitly-accepted>
       <name>JDK_14_PREVIEW</name>
       <name>JDK_15</name>
+      <name>JDK_21</name>
     </explicitly-accepted>
   </component>
 </application>
