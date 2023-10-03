@@ -6,7 +6,6 @@
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="mp3" type="Native" />
-      <mapping ext="pdf" type="Native" />
       <mapping pattern=".version" type="PLAIN_TEXT" />
       <mapping pattern="logbackxml" type="PLAIN_TEXT" />
       <mapping pattern="fab" type="PLAIN_TEXT" />
