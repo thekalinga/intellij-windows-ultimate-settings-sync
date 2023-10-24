@@ -6,5 +6,8 @@
     <local-interpreter path="$USER_HOME$/.nvm/versions/node/v20.7.0/bin/node">
       <version-cache version="20.7.0" last-modified="1695049764000" />
     </local-interpreter>
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v18.18.2/bin/node">
+      <version-cache version="18.18.2" last-modified="1697205722000" />
+    </local-interpreter>
   </component>
 </application>
