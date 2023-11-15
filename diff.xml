@@ -28,19 +28,48 @@
     </option>
   </component>
   <component name="ExternalDiffSettings">
-    <option name="DIFF_DEFAULT" value="true" />
+    <option name="DEFAULT_TOOL_CONFIGURATION">
+      <ExternalToolConfiguration>
+        <option name="diffToolName" value="Bcompare" />
+        <option name="mergeToolName" value="Bcompare" />
+      </ExternalToolConfiguration>
+    </option>
     <option name="DIFF_EXE_PATH" value="/usr/bin/bcompare" />
+    <option name="EXTERNAL_TOOLS">
+      <map>
+        <entry key="DIFF_TOOL">
+          <value>
+            <list>
+              <ExternalTool>
+                <option name="argumentPattern" value="%1 %2 %3" />
+                <option name="name" value="Bcompare" />
+                <option name="programPath" value="/usr/bin/bcompare" />
+              </ExternalTool>
+            </list>
+          </value>
+        </entry>
+        <entry key="MERGE_TOOL">
+          <value>
+            <list>
+              <ExternalTool>
+                <option name="argumentPattern" value="%1 %3 %2 %4" />
+                <option name="groupName" value="MERGE_TOOL" />
+                <option name="mergeTrustExitCode" value="true" />
+                <option name="name" value="Bcompare" />
+                <option name="programPath" value="/usr/bin/bcompare" />
+              </ExternalTool>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="MERGE_EXE_PATH" value="/usr/bin/bcompare" />
     <option name="MERGE_PARAMETERS" value="%1 %3 %2 %4" />
     <option name="MERGE_TRUST_EXIT_CODE" value="true" />
+    <option name="MIGRATE_OLD_SETTINGS" value="true" />
   </component>
   <component name="TextDiffSettings">
     <option name="PLACES_MAP">
-      <entry key="Default">
-        <PlaceSettings>
-          <option name="SHOW_LINE_NUMBERS" value="false" />
-        </PlaceSettings>
-      </entry>
       <entry key="VcsFileHistoryView">
         <PlaceSettings />
       </entry>
