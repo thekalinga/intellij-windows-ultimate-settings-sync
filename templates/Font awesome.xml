@@ -6,6 +6,7 @@
       <option name="JSP" value="true" />
       <option name="JSX_HTML" value="true" />
       <option name="PHP" value="true" />
+      <option name="TSX_HTML" value="true" />
     </context>
   </template>
   <template name="fa-google-plus-official" value="&lt;i class=&quot;fa fa-google-plus-official$1$&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;$END$" description="" toReformat="false" toShortenFQNames="false">
@@ -15,6 +16,7 @@
       <option name="JSP" value="true" />
       <option name="JSX_HTML" value="true" />
       <option name="PHP" value="true" />
+      <option name="TSX_HTML" value="true" />
     </context>
   </template>
 </templateSet>
