@@ -2,66 +2,52 @@
   <template name="qeach" value="{#each $ITEMS$}&#10;{$ITEM$}&#10;{/each}" description="Qute 'each' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="ITEMS" expression="" defaultValue="&quot;items&quot;" alwaysStopAt="true" />
     <variable name="ITEM" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qeval" value="{#eval $EXPR$ /}" description="Qute 'eval' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="EXPR" expression="" defaultValue="&quot;expression&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qfor" value="{#for $ITEM$ in $ITEMS$}&#10;{$ITEM$}&#10;{/for}" description="Qute 'for' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="ITEMS" expression="" defaultValue="&quot;items&quot;" alwaysStopAt="true" />
     <variable name="ITEM" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qif" value="{#if $CONDITION$}&#10;&#10;{/if}" description="Qute 'if' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="CONDITION" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qifelse" value="{#if $CONDITION$}&#10;&#10;{#else}&#10;&#10;{/if}" description="Qute 'if-else' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="CONDITION" expression="" defaultValue="&quot;condition&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qifelseif" value="{#if $CONDITION1$}&#10;&#10;{#else if $CONDITION2$}&#10;&#10;{#else}&#10;&#10;{/if}" description="Qute 'if-elseif' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="CONDITION1" expression="" defaultValue="&quot;condition1&quot;" alwaysStopAt="true" />
     <variable name="CONDITION2" expression="" defaultValue="&quot;condition2&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qinclude" value="{#include $TEMPLATE$}&#10;&#10;{/include}" description="Qute 'include' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="TEMPLATE" expression="" defaultValue="&quot;template&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qinsert" value="{#insert $BODY$}&#10;&#10;{/insert}" description="Qute 'insert' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="BODY" expression="" defaultValue="&quot;body&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qlet" value="{#let $VAR_NAME$=$VAR_VALUE$}&#10;&#10;{/let}" description="Qute 'let' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VAR_NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qset" value="{#set $VAR_NAME$=$VAR_VALUE$}&#10;&#10;{/set}" description="Qute 'set' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VAR_NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qparameter" value="{@$CLASS$ $ALIAS$}" description="Qute parameter declaration" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="CLASS" expression="" defaultValue="&quot;class&quot;" alwaysStopAt="true" />
     <variable name="ALIAS" expression="" defaultValue="&quot;alias&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qswitch" value="{#switch $VALUE$}&#10;{#case $CASE$}&#10;{/switch}" description="Qute 'switch' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
     <variable name="CASE" expression="" defaultValue="&quot;case&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qwhen" value="{#when $VALUE$}&#10;{#is $CASE$}&#10;{/when}" description="Qute 'when' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VALUE" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
     <variable name="CASE" expression="" defaultValue="&quot;case&quot;" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="qwith" value="{#with $OBJ$}&#10;{$PROP$}&#10;{/with}" description="Qute 'with' section" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="OBJ" expression="" defaultValue="&quot;object&quot;" alwaysStopAt="true" />
     <variable name="PROP" expression="" defaultValue="&quot;property&quot;" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
