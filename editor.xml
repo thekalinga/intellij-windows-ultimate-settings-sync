@@ -16,6 +16,7 @@
     <option name="IS_WHITESPACES_SHOWN" value="true" />
     <option name="IS_CAMEL_WORDS" value="true" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+    <option name="BIDI_TEXT_DIRECTION" value="RTL" />
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
