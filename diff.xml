@@ -26,8 +26,6 @@
               <option value="com.intellij.database.diff.TableDiffTool" />
               <option value="com.intellij.openapi.vcs.changes.patch.tool.PatchDiffTool.Unified" />
               <option value="com.intellij.openapi.vcs.changes.patch.tool.PatchDiffTool.SideBySide" />
-              <option value="com.intellij.ml.llm.core.diff.AIUnifiedDiffTool" />
-              <option value="com.intellij.ml.llm.core.diff.AITwoSideDiffTool" />
             </list>
           </option>
         </PlaceSettings>
