@@ -1,5 +1,8 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="athena">
+      <artifact id="Athena" name="Athena" use="true" version="2.1.3" />
+    </driver>
     <driver id="db2" name="DB2 (LUW)" />
     <driver id="db2.jtopen" name="DB2 (JTOpen)" />
     <driver id="derby.embedded" name="Derby (Embedded)" />
