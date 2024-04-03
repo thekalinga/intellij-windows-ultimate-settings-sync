@@ -68,8 +68,10 @@
       <removed_mapping ext="cql" approved="true" type="CassandraQL" />
       <removed_mapping ext="csv" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="drawio" approved="true" type="XML" />
+      <removed_mapping ext="env" approved="true" type=".env file" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="tab" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".env" approved="true" type=".env file" />
       <mapping ext="latex" type="LaTeX file" />
       <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>

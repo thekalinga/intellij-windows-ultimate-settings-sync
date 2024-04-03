@@ -4,6 +4,7 @@
       <name>JDK_14_PREVIEW</name>
       <name>JDK_15</name>
       <name>JDK_21</name>
+      <name>JDK_X</name>
     </explicitly-accepted>
   </component>
 </application>

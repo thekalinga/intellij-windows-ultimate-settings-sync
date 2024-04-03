@@ -24,10 +24,8 @@
               <option value="com.intellij.diff.tools.combined.CombinedSideBySideDiffTool" />
               <option value="com.intellij.database.model.diff.SchemaDiffTool" />
               <option value="com.intellij.database.diff.TableDiffTool" />
-              <option value="com.intellij.openapi.vcs.changes.patch.tool.PatchDiffTool.Unified" />
               <option value="com.intellij.openapi.vcs.changes.patch.tool.PatchDiffTool.SideBySide" />
-              <option value="com.intellij.ml.llm.core.diff.AIUnifiedDiffTool" />
-              <option value="com.intellij.ml.llm.core.diff.AITwoSideDiffTool" />
+              <option value="com.intellij.openapi.vcs.changes.patch.tool.PatchDiffTool.Unified" />
             </list>
           </option>
         </PlaceSettings>
