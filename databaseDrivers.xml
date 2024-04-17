@@ -12,6 +12,9 @@
         <url>file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.188/a955e0f5598a7bc9df5c7b5c3ab31ffd350a035e/h2-1.4.188.jar</url>
       </library>
     </driver>
+    <driver id="mongo">
+      <artifact id="MongoDB" name="MongoDB" use="true" version="1.18" />
+    </driver>
     <driver id="sqlserver.ms" name="SQL Server (Microsoft)">
       <option name="auto-sync" value="false" />
     </driver>
