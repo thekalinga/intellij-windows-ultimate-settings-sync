@@ -3,6 +3,7 @@
     <option name="pluginIds">
       <list>
         <option value="io.flutter" />
+        <option value="com.intellij.spring.graphql" />
       </list>
     </option>
   </component>
