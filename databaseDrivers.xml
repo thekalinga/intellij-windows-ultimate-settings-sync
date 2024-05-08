@@ -8,6 +8,7 @@
     <driver id="derby.embedded" name="Derby (Embedded)" />
     <driver id="derby.remote" name="Derby (Remote)" />
     <driver id="h2.unified">
+      <artifact id="H2" name="H2" use="true" version="2.2.220" />
       <library>
         <url>file://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.188/a955e0f5598a7bc9df5c7b5c3ab31ffd350a035e/h2-1.4.188.jar</url>
       </library>
