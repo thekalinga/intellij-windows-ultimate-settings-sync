@@ -41,7 +41,7 @@
     <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
     <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
   </JavaCodeStyleSettings>
-  <SqlCodeStyleSettings version="6">
+  <SqlCodeStyleSettings version="7">
     <option name="DISABLE_FORMATTING" value="true" />
     <option name="TYPE_CASE" value="3" />
     <option name="CUSTOM_TYPE_CASE" value="3" />
