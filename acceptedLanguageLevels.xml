@@ -5,6 +5,7 @@
       <name>JDK_15</name>
       <name>JDK_21</name>
       <name>JDK_X</name>
+      <name>JDK_22_PREVIEW</name>
     </explicitly-accepted>
   </component>
 </application>
